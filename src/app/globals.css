@@ -1,21 +1,40 @@
+/* Tailwind CSS imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Define light and dark mode color variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Light mode background */
+  --foreground: #171717; /* Light mode text color */
+  --customwidth: 920px; /* Custom width */
 }
 
+/* Dark mode system preference */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a; /* Dark mode background */
+    --foreground: #ededed; /* Dark mode text color */
   }
 }
 
+/* Apply custom background and foreground variables */
 body {
+  background-color: var(--background);
   color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Apply the same background color to the header */
+header {
+  background-color: var(--background); /* Will change based on the theme */
+}
+
+/* Tailwind's dark mode styles using class */
+@layer base {
+  html.dark {
+    /* Dark mode background and text color when the 'dark' class is added to the <html> element */
+    --background: #1a202c; /* Dark background */
+    --foreground: #e2e8f0; /* Light text color */
+  }
 }
