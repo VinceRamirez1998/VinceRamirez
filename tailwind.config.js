@@ -5,7 +5,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -18,6 +17,13 @@ module.exports = {
       },
       width: {
         'customwidth': 'var(--customwidth)',  
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'], // Use Poppins as the default sans-serif font
+      },
+      fontWeight: {
+        'extra-light': 600, // Custom weight
+        'extra-bold': 800,  // Custom weight
       },
     },
   },

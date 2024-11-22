@@ -33,24 +33,30 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-4">
+    <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-6 font-sans">
       <div className="container mx-auto flex justify-between items-center w-customwidth">
-       
-
         {/* Navigation Links */}
         <nav className="flex-grow">
           <ul className="flex space-x-6 justify-start">
             <li>
-              <Link href="/" className="hover:text-black">Home</Link>
+              <Link href="/" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-black">About</Link>
+              <Link href="/about" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/projects" className="hover:text-black">Projects</Link>
+              <Link href="/projects" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+                Projects
+              </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-black">Contact</Link>
+              <Link href="/contact" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

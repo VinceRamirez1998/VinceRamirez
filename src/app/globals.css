@@ -6,14 +6,14 @@
 /* Define light and dark mode color variables */
 :root {
   --background: #ffffff; /* Light mode background */
-  --foreground: #171717; /* Light mode text color */
+  --foreground: #354150; /* Light mode text color */
   --customwidth: 920px; /* Custom width */
 }
 
 /* Dark mode system preference */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a; /* Dark mode background */
+    --background: #354150; /* Dark mode background */
     --foreground: #ededed; /* Dark mode text color */
   }
 }
@@ -22,7 +22,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Genaral Sans';
 }
 
 /* Apply the same background color to the header */
