@@ -1,9 +1,12 @@
-import Image from "next/image";
+// pages/index.tsx or app/page.tsx
+
+import Introduction from '../../components/introduction';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    
+    <div className=''>
+      <Introduction/>
+      {/* Other sections of your page */}
     </div>
   );
 }
