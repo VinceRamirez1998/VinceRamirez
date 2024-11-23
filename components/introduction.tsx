@@ -10,16 +10,25 @@ const iconLinks = [
 
 const Introduction = () => {
   return (
-    <section className="min-h-screen py-12 px-6 bg-white dark:bg-darkbg flex justify-center">
-      <div className="max-w-[var(--customwidth)] w-full flex justify-between items-start space-x-6">
-        
+    <section className="min-h-screen py-24 px-6 bg-white dark:bg-darkbg flex justify-center">
+      <div className="max-w-screen-xl w-customwidth flex flex-col lg:flex-row-reverse justify-between items-start  space-y-6 lg:space-y-0 ">
+
+        {/* Right Section (Image) */}
+        <div className="flex justify-center lg:justify-end items-start lg:items-center">
+          <img
+            src="../images/vince-ramirez-img.png" // Replace with your image path
+            alt="Vince Ramirez"
+            className="rounded-xl w-48 h-[13.5rem] sm:h-[14rem] md:h-[15rem] lg:h-[16rem] object-contain shadow-lg dark:bg-white"
+          />
+        </div>
+
         {/* Left Section (Name, Title, Location) */}
         <div className="flex flex-col justify-start space-y-4 text-start max-w-md">
-          <h1 className="text-5xl font-extrabold text-gray-900 dark:text-white font-calistoga tracking-tighter">Vince Ramirez</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white font-calistoga tracking-tighter">Vince Ramirez</h1>
           <p className="text-md text-gray-600 dark:text-gray-400 font-sans">Full Stack Web Developer</p>
-          <p className="text-md text-gray-600 dark:text-gray-400 font-sans">Mexico, Pampanga 📍  | PH</p>
+          <p className="text-md text-gray-600 dark:text-gray-400 font-sans">Mexico, Pampanga 📍 | PH</p>
 
-          {/* Social Icons with added padding-top */}
+          {/* Social Icons */}
           <div className="flex space-x-6 mt-6 justify-start pt-5">
             {/* Map through the iconLinks array */}
             {iconLinks.map((link, index) => (
@@ -47,15 +56,6 @@ const Introduction = () => {
               </a>
             ))}
           </div>
-        </div>
-
-        {/* Right Section (Image) */}
-        <div className="flex justify-start items-start">
-          <img
-            src="../images/vince-ramirez-img.png" // Replace with your image path
-            alt="Vince Ramirez"
-            className="rounded-xl w-48 h-[13.5rem] object-contain shadow-lg dark:bg-white"
-          />
         </div>
       </div>
     </section>

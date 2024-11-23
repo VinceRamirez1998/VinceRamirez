@@ -7,6 +7,7 @@ import { MoonIcon, SunIcon } from '@heroicons/react/24/solid'; // Import Heroico
 const Header = () => {
   // State for dark mode
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage mobile menu visibility
 
   // Toggle dark mode and save preference to localStorage
   const toggleDarkMode = () => {
@@ -34,27 +35,63 @@ const Header = () => {
 
   return (
     <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-6 font-sans">
-      <div className="container mx-auto flex justify-between items-center w-customwidth">
+      <div className="container mx-auto flex justify-between items-center px-6 md:px-0 lg:px-0w-full md:w-customwidth ">
+
+  
+
+        {/* Mobile Menu Toggle */}
+        <button
+          className="block lg:hidden p-2 text-gray-500 dark:text-white "
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {/* Hamburger Icon */}
+          <svg
+            className={`h-6 w-6  ${isMenuOpen ? 'hidden' : 'block'}`}
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+
+          {/* Close Icon */}
+          <svg
+            className={`h-6 w-6 ${isMenuOpen ? 'block' : 'hidden'}`}
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+
         {/* Navigation Links */}
-        <nav className="flex-grow">
+        <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
           <ul className="flex space-x-6 justify-start">
             <li>
-              <Link href="/" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+              <Link href="/" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="/projects" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+              <Link href="/projects" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Projects
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-black dark:hover:text-white dark:text-gray-400 ">
+              <Link href="/contact" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Contact
               </Link>
             </li>

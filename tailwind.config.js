@@ -29,6 +29,14 @@ module.exports = {
       letterSpacing: {
         tighter: '.065em', // Custom class for .025em letter-spacing
       },
+      screens: {
+        // Custom breakpoints (optional)
+        sm: '640px', // Small screens (mobile)
+        md: '768px', // Medium screens (tablet, small laptop)
+        lg: '1024px', // Large screens (laptops, desktops)
+        xl: '1280px', // Extra large screens (large desktops)
+        '2xl': '1536px', // 2XL screens (ultra-large displays)
+      },
     },
   },
   plugins: [],
