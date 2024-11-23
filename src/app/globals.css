@@ -10,14 +10,14 @@
 /* Define light and dark mode color variables */
 :root {
   --background: white; /* Light mode background */
-  --foreground: #030712 ; /* Light mode text color */
+  --foreground: black ; /* Light mode text color */
   --customwidth: 920px; /* Custom width (light mode) */
 }
 
 /* Dark mode system preference */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #030712; /* Dark mode background */
+    --background: black; /* Dark mode background */
     --foreground: white; /* Dark mode text color */
     --customwidth: 920px; /* Custom width (dark mode) */
   }
@@ -41,7 +41,7 @@ header {
 @layer base {
   html.dark {
     /* Dark mode background and text color when the 'dark' class is added to the <html> element */
-    --background: #1a202c; /* Dark background */
+    --background: black; /* Dark background */
     --foreground: white; /* Light text color */
     --customwidth: 920px; /* Custom width (dark mode) */
   }
