@@ -1,12 +1,14 @@
-// pages/index.tsx or app/page.tsx
+  // pages/index.tsx or app/page.tsx
 
-import Introduction from '../../components/introduction';
+  import Introduction from '../../components/introduction';
 
 export default function Home() {
   return (
-    <div className=''>
-      <Introduction/>
-      {/* Other sections of your page */}
+    <div className="bg-gray-100 dark:bg-darkbg">
+      {/* Introduction Section */}
+      <Introduction />
+
+      {/* Tablist Section */}
     </div>
   );
 }
