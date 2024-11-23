@@ -10,7 +10,7 @@ const iconLinks = [
 
 const Introduction = () => {
   return (
-    <section className="py-6 px-6 bg-white dark:bg-darkbg flex justify-center">
+    <section className="lg:min-h-screen pt-16 py-6 px-6 bg-white dark:bg-darkbg flex justify-center">
       <div className="max-w-screen-xl w-customwidth flex flex-col lg:flex-row-reverse justify-between items-start  space-y-6 lg:space-y-0 ">
 
         {/* Right Section (Image) */}
