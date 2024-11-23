@@ -1,7 +1,6 @@
 // components/Skills.tsx
 'use client';  // Mark this as a client-side component
 
-import { useState } from 'react';
 const Skills = () => {
     return (
       <div>

@@ -1,9 +1,12 @@
 // app/layout.tsx
 
 import type { Metadata } from 'next';
+// app/layout.tsx
+
+import { Poppins } from 'next/font/google'; 
+import { Inter } from 'next/font/google';  // This is for Calistoga
 import localFont from 'next/font/local';
 import Header from '../../components/header';  // Import Header component
-import { Poppins } from 'next/font/google';
 import './globals.css';
 
 // Poppins font from Google Fonts
@@ -25,8 +28,7 @@ const geistMono = localFont({
   weight: '100 900',
 });
 
-// Add Calistoga font from Google Fonts
-import { Inter } from 'next/font/google';
+// Calistoga font from Google Fonts
 const calistoga = Inter({
   weight: ['400'],
   subsets: ['latin'],
@@ -45,11 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Import Calistoga font from Google Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
-          rel="stylesheet"
-        />
+        {/* Removed redundant link for Calistoga */}
       </head>
       <body
         className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} ${calistoga.className} antialiased`}

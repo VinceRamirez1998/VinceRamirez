@@ -1,7 +1,6 @@
 // components/Education.tsx
 'use client';  // Mark this as a client-side component
 
-import { useState } from 'react';
 const Education = () => {
     return (
       <div>
