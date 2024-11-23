@@ -13,17 +13,21 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        darkbg: '#1a202c',
+        darkbg: '#030712',
       },
       width: {
         'customwidth': 'var(--customwidth)',  
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'], // Use Poppins as the default sans-serif font
+        calistoga: ['Calistoga', 'sans-serif'],
       },
       fontWeight: {
         'extra-light': 600, // Custom weight
         'extra-bold': 800,  // Custom weight
+      },
+      letterSpacing: {
+        tighter: '.065em', // Custom class for .025em letter-spacing
       },
     },
   },

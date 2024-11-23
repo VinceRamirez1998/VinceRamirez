@@ -3,7 +3,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Header from '../../components/header';  // Import Header component
-import { Poppins } from 'next/font/google'; 
+import { Poppins } from 'next/font/google';
 import './globals.css';
 
 // Poppins font from Google Fonts
@@ -25,7 +25,13 @@ const geistMono = localFont({
   weight: '100 900',
 });
 
-// Metadata for the document
+// Add Calistoga font from Google Fonts
+import { Inter } from 'next/font/google';
+const calistoga = Inter({
+  weight: ['400'],
+  subsets: ['latin'],
+});
+
 export const metadata: Metadata = {
   title: 'Vince Ramirez | Portfolio',
   description: 'Vince Ramirez | Portfolio',
@@ -38,8 +44,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Import Calistoga font from Google Fonts */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
-        className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} ${calistoga.className} antialiased`}
       >
         <Header /> {/* Add the Header component */}
         <main>{children}</main> {/* Render the page content */}
