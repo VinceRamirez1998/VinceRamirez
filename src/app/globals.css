@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* src/app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+
 /* Define light and dark mode color variables */
 :root {
   --background: white; /* Light mode background */

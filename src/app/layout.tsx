@@ -1,8 +1,4 @@
-// app/layout.tsx
-
 import type { Metadata } from 'next';
-// app/layout.tsx
-
 import { Poppins } from 'next/font/google'; 
 import { Inter } from 'next/font/google';  // This is for Calistoga
 import localFont from 'next/font/local';
@@ -47,7 +43,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Removed redundant link for Calistoga */}
+      <link 
+          href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" 
+          rel="stylesheet" 
+        />
       </head>
       <body
         className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} ${calistoga.className} antialiased`}

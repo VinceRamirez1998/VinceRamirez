@@ -10,13 +10,13 @@ const iconLinks = [
 
 const Introduction = () => {
   return (
-    <section className="py-12 px-6 bg-white dark:bg-darkbg flex justify-center">
+    <section className="min-h-screen py-12 px-6 bg-white dark:bg-darkbg flex justify-center">
       {/* Container to apply 920px width and align items at the top */}
       <div className="max-w-[var(--customwidth)] w-full flex justify-between items-start space-x-6">
         
         {/* Left Section (Name, Title, Location) */}
         <div className="flex flex-col justify-start space-y-4 text-start max-w-md">
-          <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white font-calistoga tracking-tighter">Vince Ramirez</h1>
+    <h1 className="text-5xl font-extrabold text-gray-900 dark:text-white font-calistoga tracking-tighter">Vince Ramirez</h1>
           <p className="text-xl text-gray-700 dark:text-gray-300">Full Stack Web Developer</p>
           <p className="text-lg text-gray-600 dark:text-gray-400">📍 Mexico, Pampanga | PH</p>
 

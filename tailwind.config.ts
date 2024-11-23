@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'], // Use Poppins as the default sans-serif font
+        calistoga: ['Calistoga', 'sans-serif'],
+      },
       
       
     },
