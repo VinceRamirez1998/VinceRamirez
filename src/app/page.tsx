@@ -1,5 +1,5 @@
   // pages/index.tsx or app/page.tsx
-
+'use client'; 
   import Introduction from '../../components/introduction';
   import Tablist from '../../components/tablist';
 
