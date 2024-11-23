@@ -1,6 +1,4 @@
-// components/Introduction.tsx
-
-// Import the specific icons from react-icons
+'use client'; 
 import { FaFacebook, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa'; // Facebook, LinkedIn, Email, Resume icons
 
 const iconLinks = [
