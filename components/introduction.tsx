@@ -12,7 +12,7 @@ const iconLinks = [
 
 const Introduction = () => {
   return (
-    <section className="py-12 px-6 bg-white dark:bg-darkbg min-h-screen flex justify-center">
+    <section className="py-12 px-6 bg-white dark:bg-darkbg flex justify-center">
       {/* Container to apply 920px width and align items at the top */}
       <div className="max-w-[var(--customwidth)] w-full flex justify-between items-start space-x-6">
         
