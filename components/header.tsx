@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-6 font-sans">
-      <div className="container mx-auto flex justify-between items-center px-6 md:px-0 lg:px-0w-full md:w-customwidth ">
+      <div className="container mx-auto flex justify-between items-center px-4 md:px-0 lg:px-0w-full md:w-customwidth ">
 
   
 
