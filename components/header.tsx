@@ -1,115 +1,113 @@
-'use client';
+'use client'; // Ensure this is a client component
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { MoonIcon, SunIcon } from '@heroicons/react/24/solid';
+import { MoonIcon, SunIcon } from '@heroicons/react/24/solid'; // Import Heroicons
 
 const Header = () => {
+  // State for dark mode
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage mobile menu visibility
 
-  // Toggle dark mode and save preference
+  // Toggle dark mode and save preference to localStorage
   const toggleDarkMode = () => {
-    setIsDarkMode((prev) => {
-      const newMode = !prev;
-      document.documentElement.classList.toggle('dark', newMode);
-      localStorage.setItem('theme', newMode ? 'dark' : 'light');
-      return newMode;
-    });
+    setIsDarkMode(!isDarkMode);
+    if (isDarkMode) {
+      document.documentElement.classList.remove('dark'); // Disable dark mode
+      localStorage.setItem('theme', 'light'); // Save to localStorage
+    } else {
+      document.documentElement.classList.add('dark'); // Enable dark mode
+      localStorage.setItem('theme', 'dark'); // Save to localStorage
+    }
   };
 
-  // Load saved theme on mount
+  // Check for dark mode preference on component mount
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
       setIsDarkMode(true);
-      document.documentElement.classList.add('dark'); // Add 'dark' class to <html> for dark mode
+      document.documentElement.classList.add('dark');
     } else {
       setIsDarkMode(false);
-      document.documentElement.classList.remove('dark'); // Remove 'dark' class from <html> for light mode
+      document.documentElement.classList.remove('dark');
     }
   }, []);
-    
 
   return (
-    <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-4 shadow-md">
-      <div className="container mx-auto flex items-center justify-between px-4 lg:px-0 max-w-screen-lg">
-        {/* Logo */}
-        <div>
-          <Link href="/" className="text-xl font-bold text-gray-700 dark:text-white">
-            MyLogo
-          </Link>
-        </div>
+    <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-6 font-sans">
+      <div className="container mx-auto flex justify-between items-center px-4 md:px-0 lg:px-0w-full md:w-customwidth ">
+
+  
 
         {/* Mobile Menu Toggle */}
         <button
+          className="block lg:hidden p-2 text-gray-500 dark:text-white "
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle Menu"
-          className="lg:hidden text-gray-700 dark:text-white p-2"
         >
-          {isMenuOpen ? (
-            <svg
-              className="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          ) : (
-            <svg
-              className="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          )}
+          {/* Hamburger Icon */}
+          <svg
+            className={`h-6 w-6  ${isMenuOpen ? 'hidden' : 'block'}`}
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+
+          {/* Close Icon */}
+          <svg
+            className={`h-6 w-6 ${isMenuOpen ? 'block' : 'hidden'}`}
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
         </button>
 
         {/* Navigation Links */}
-        <nav
-          className={`absolute top-16 left-0 w-full bg-white dark:bg-darkbg lg:static lg:flex lg:w-auto lg:items-center lg:space-x-6 
-          ${isMenuOpen ? 'block' : 'hidden'} lg:block transition-all`}
-        >
-          <ul className="flex flex-col lg:flex-row items-start lg:items-center lg:space-x-6 py-4 lg:py-0">
+        <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
+          <ul className="flex space-x-6 justify-start">
             <li>
-              <Link
-                href="/"
-                className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400"
-              >
+              <Link href="/" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Home
               </Link>
             </li>
             <li>
-              <Link
-                href="/projects"
-                className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400"
-              >
+              <Link href="/projects" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Projects
               </Link>
             </li>
             <li>
-              <Link
-                href="/contact"
-                className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400"
-              >
+              <Link href="/contact" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Contact
               </Link>
             </li>
           </ul>
         </nav>
 
-        {/* Dark Mode Toggle */}
+        {/* Dark Mode Button with Icons */}
         <button
           onClick={toggleDarkMode}
-          aria-label="Toggle Dark Mode"
-          className="bg-gray-800 text-white p-2 rounded-full hover:bg-gray-700 transition"
+          className="bg-gray-800 text-white p-2 rounded-full hover:bg-gray-700"
         >
-          {isDarkMode ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
+          {isDarkMode ? (
+            <SunIcon className="h-6 w-6" />
+          ) : (
+            <MoonIcon className="h-6 w-6" />
+          )}
         </button>
       </div>
     </header>

@@ -12,7 +12,7 @@ const TabList = () => {
   ];
 
   return (
-    <section className="pt-16 py-6 px-6 bg-white dark:bg-darkbg flex justify-center">
+    <section className="py-6 px-6 bg-white dark:bg-darkbg ">
     <div className="min-h-screen flex justify-center">
       <div className="max-w-screen-xl w-customwidth mt-10">
         {/* Tab Buttons */}
