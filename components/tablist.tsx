@@ -12,7 +12,7 @@ const TabList = () => {
   ];
 
   return (
-    <div className="min-h-screen dark:bg-darkbg flex justify-center">
+    <div className="min-h-screen bg-background dark:bg-darkbg flex justify-center">
       <div className="max-w-screen-xl w-customwidth mt-10">
         {/* Tab Buttons */}
         <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6">

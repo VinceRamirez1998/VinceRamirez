@@ -21,10 +21,15 @@ const Header = () => {
   // Load saved theme on mount
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
-    const isDark = savedTheme === 'dark';
-    setIsDarkMode(isDark);
-    document.documentElement.classList.toggle('dark', isDark);
+    if (savedTheme === 'dark') {
+      setIsDarkMode(true);
+      document.documentElement.classList.add('dark'); // Add 'dark' class to <html> for dark mode
+    } else {
+      setIsDarkMode(false);
+      document.documentElement.classList.remove('dark'); // Remove 'dark' class from <html> for light mode
+    }
   }, []);
+    
 
   return (
     <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-4 shadow-md">
