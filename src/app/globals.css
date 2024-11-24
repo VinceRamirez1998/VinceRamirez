@@ -41,8 +41,8 @@ header {
 @layer base {
   html.dark {
     /* Dark mode background and text color when the 'dark' class is added to the <html> element */
-    --background: #030712; /* Dark background */
-    --foreground: white; /* Light text color */
+    --background: white; /* Dark background */
+    --foreground: #030712; /* Light text color */
     --customwidth: 920px; /* Custom width (dark mode) */
   }
 }
