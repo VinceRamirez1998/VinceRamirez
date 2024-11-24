@@ -12,7 +12,7 @@ const TabList = () => {
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto py-10 ">
+    <div className="w-full max-w-4xl mx-auto py-10 bg:white dark:bg-darkbg ">
       {/* Tab Buttons */}
       <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6">
         {tabs.map((tab) => (
