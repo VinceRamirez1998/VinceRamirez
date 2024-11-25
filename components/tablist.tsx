@@ -13,6 +13,7 @@ const TabList = () => {
       <div className="relative pl-16 mb-6 p-10">
             {/* Timeline */}
             <div className="absolute left-11 top-0 w-1 border border-solid border-gray-300 h-full"></div>
+
             <div className="flex flex-col space-y-8">
               {/* Experience 1 */}
               <div className="relative flex items-start space-x-4">
@@ -100,41 +101,7 @@ const TabList = () => {
     },
     { 
       name: 'Education', 
-      content: (
-        <div className="relative pl-16 mb-6 p-10">
-          {/* Timeline */}
-          <div className="absolute left-11 top-0 w-1 border border-solid border-gray-300 h-full"></div>
-    
-          <div className="flex flex-col space-y-8">
-            {/* Education Section */}
-            <div className="relative flex items-start space-x-4">
-              <div className="absolute left-[-40px] top-0 w-12 h-12">
-                {/* Logo Image */}
-                <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
-              </div>
-              <div className="ml-16">
-                <h3 className="text-lg font-medium font-semibold">Don Honorio Ventura State University</h3>
-                <p className="text-sm">Bachelor of Science in Information Technology</p>
-                <p className="text-gray-500 text-sm">Bacolor, Pampanga | 2020 - 2024</p>
-    
-                <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                  <li>Acquired Top 10 Highest Average Among all the Students of the College of Computing Studies (2020 - 2021)</li>
-                  <li>Acquired Class Top 1 in the Academic Years (2020 and 2024)</li>
-                  <li>Consistent President Lister & Dean's Lister (2020 - 2024)</li>
-                  <li>With Latin Honors (2020 - 2024)</li>
-                  <li>Most Outstanding Student (2024)</li>
-                </ul>
-    
-                <h4 className="mt-4 text-lg font-medium font-semibold">Certifications</h4>
-                <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                  <li>Search Engine Optimization (Udemy) - March 2024</li>
-                  <li>Vanilla PHP (Udemy) - May 2024</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      )
+      content: 'Here is the content for Education.' 
     },
     { 
       name: 'Skills', 
