@@ -42,12 +42,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+        <head>
       <link 
-          href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" 
-          rel="stylesheet" 
-        />
-      </head>
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" 
+        rel="stylesheet" 
+      />
+      <link 
+        href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" 
+        rel="stylesheet" 
+      />
+    </head>
+
       <body
         className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} ${calistoga.className} antialiased`}
       >
