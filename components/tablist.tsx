@@ -151,7 +151,133 @@ const TabList = () => {
     },
     { 
       name: 'Skills', 
-      content: 'Here is the content for Skills.' 
+      content: (
+        <>
+      <div className="relative pl-16 mb-6 p-10">
+            {/* Timeline */}
+            <div className="absolute left-11 top-0 w-1 border border-solid border-gray-300 h-full"></div>
+
+            <div className="flex flex-col space-y-8">
+              {/* Skills 1 */}
+              <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">API Development & Testing Tool</h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Postman</li>
+                  </ul>
+                 </div>
+                </div>
+
+              {/* Skills 2 */}
+              <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Javascript</li>
+                    <li>Typescript</li>
+                    <li>C++</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+              </div>
+
+               {/* Skills 3 */}
+               <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">Framework</h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Tailwind</li>
+                    <li>Laravel</li>
+                    <li>Bootstrap</li>
+                    <li>Next JS</li>
+                    <li>React</li>
+                  </ul>
+                </div>
+              </div>
+
+                {/* Skills 4 */}
+                <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">Project Management & Version Control</h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Jira</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Bitbucket</li>
+                    <li>Monday.com</li>
+                  </ul>
+                </div>
+              </div>
+
+                   {/* Skills 5 */}
+                <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">Deployment & Web Hosting</h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Vercel</li>
+                    <li>Hostinger</li>
+                    <li>Godaddy</li>
+                  </ul>
+                </div>
+              </div>
+
+                  {/* Skills 6 */}
+                  <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">Web Builder & Admin Panel Builder </h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Wordpress</li>
+                    <li>Filament</li>
+                  </ul>
+                </div>
+              </div>
+
+                   {/* Skills 7 */}
+                   <div className="relative flex items-start space-x-4">
+                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                  {/* Logo Image */}
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                </div>
+                <div className="flex-1 ml-16">
+                  <h3 className="text-lg font-medium font-semibold">Design Tools</h3>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Photoshop</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      )
     },
   ];
 
