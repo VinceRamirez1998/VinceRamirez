@@ -115,15 +115,16 @@ const TabList = () => {
                   <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
-                  <p className="text-sm">Full Stack Web Developer - E-commerce, WordPress, Elementor</p>
-                  <p className="text-gray-500 text-sm">Mexico, Pampanga | June 2024 - Current</p>
+                  <h3 className="text-lg font-medium font-semibold">Don Honorio Ventura State University</h3>
+                  <p className="text-sm">Bachelor of Science in Information Technology</p>
+                  <p className="text-gray-500 text-sm">Bacolor, Pampanga | 2020 - 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Leveraged Elementor to create custom, visually appealing, and responsive web pages, enhancing the overall aesthetic, usability, performance, and SEO of various websites.</li>
-                    <li>Developed an end-to-end e-commerce platform, order management systems, and scheduling management website to streamline online transactions and enhance user experience.</li>
-                    <li>Implemented Store Locator feature to help clients find the nearest business location and enhance customer engagement.</li>
-                    <li>Utilized a full-stack development approach to ensure seamless integration of front-end and back-end functionalities, delivering a cohesive and intuitive user experience.</li>
-                    <li>Collaborated with clients to understand their business requirements, provided technical expertise, and delivered tailored solutions to meet their specific needs.</li>
+                    <li>Acquired Top 10 Highest Average Among all the Students of the College of Computing
+                    Studies</li>
+                    <li>Acquired Class Top 1 in the Academic Years 2020 and 2024</li>
+                    <li>Consistent President Lister & Deans Lister 2020-2024</li>
+                    <li>With Latin Honors 2020-2024</li>
+                    <li>Most Outstanding Student 2024</li>
                   </ul>
                 </div>
               </div>
@@ -144,46 +145,6 @@ const TabList = () => {
                     <li>Integrated third-party APIs to enhance application features and functionality, improving overall user experience.</li>
                     <li>Employed agile methodologies to efficiently manage project timelines and deliverables, ensuring client satisfaction and project success.</li>
                     <li>Collaborated closely with clients to analyze business requirements, propose technical solutions, and implement tailored web solutions that meet specific needs and objectives.</li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Experience 3 */}
-              <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
-                  {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
-                </div>
-                <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
-                  <p className="text-sm">Full Stack Web Developer - Internship - AMS</p>
-                  <p className="text-gray-500 text-sm">Clark, Pampanga | Feb 2024 - May 2024</p>
-                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Integrated a custom authentication system, security, managed real-time databases, and hosted applications, ensuring reliability and scalability.</li>
-                    <li>Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
-                    <li>Implemented version control systems to manage code repositories, facilitating collaborative development and maintaining code integrity throughout the software lifecycle.</li>
-                    <li>Actively participated in and contributed to internal project initiatives, ensuring timely project delivery.</li>
-                    <li>Ensured UI designs are in line with current trends and maintained consistency and responsiveness across platforms.</li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Experience 4 */}
-              <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
-                  {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
-                </div>
-                <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
-                  <p className="text-sm">Lead Programmer - Recruitment Government Platform</p>
-                  <p className="text-gray-500 text-sm">Mexico, Pampanga | Aug 2022 - Dec 2023</p>
-                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Led the development team in creating a robust Recruitment Government Platform tailored for government agencies, integrating a Preliminary Employment Examination module to streamline the hiring process.</li>
-                    <li>Ensured compliance with security standards and regulations, implementing robust authentication mechanisms and data encryption protocols to safeguard applicant information.</li>
-                    <li>Provided technical leadership and guidance to the development team, fostering a collaborative environment and promoting best practices in software engineering and project management.</li>
-                    <li>Architected and implemented core functionalities, including job listings, user registration, preliminary examination modules, and application management systems, ensuring scalability and efficiency.</li>
-                    <li>Conducted regular code reviews, identified areas for optimization, and implemented performance enhancements to maintain code quality and ensure system reliability.</li>
                   </ul>
                 </div>
               </div>
