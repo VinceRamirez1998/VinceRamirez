@@ -223,13 +223,28 @@ const TabList = () => {
                   <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Framework</h3>
+                  <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Tailwind</li>
-                    <li>Laravel</li>
-                    <li>Bootstrap</li>
-                    <li>Next JS</li>
-                    <li>React</li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/tailwind.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Tailwind</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/laravel.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Laravel</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/bootstrap.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Bootstrap++</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/next.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Next JS</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/react.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>React</span>
+                    </li>
                   </ul>
                 </div>
               </div>
