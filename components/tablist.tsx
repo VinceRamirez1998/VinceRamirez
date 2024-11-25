@@ -117,12 +117,12 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Don Honorio Ventura State University</h3>
                   <p className="text-sm">Bachelor of Science in Information Technology</p>
-                  <p className="text-gray-500 text-sm">Bacolor, Pampanga (2020&ndash;2024)</p>
+                  <p className="text-gray-500 text-sm">Bacolor, Pampanga (2020 &ndash; 2024)</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Acquired Top 10 Highest Average Among all the Students of the College of Computing Studies</li>
-                    <li>Acquired Class Top 1 in the Academic Years (2020&ndash;2021)</li> {/* Corrected dash */}
-                    <li>Consistent President&apos;s Lister &amp; Dean&apos;s Lister (2020&ndash;2024)</li> {/* Fixed apostrophes */}
-                    <li>With Latin Honors (2020&ndash;2024)</li>
+                    <li>Acquired Top 10 Highest Average Among all the Students  <br /> of the College of Computing Studies (2020 &ndash; 2021)</li>
+                    <li>Acquired Class Top 1 in the Academic Years  (2020 & 2021)</li> {/* Corrected dash */}
+                    <li>Consistent President&apos;s Lister &amp; Dean&apos;s Lister (2020 &ndash; 2024)</li> {/* Fixed apostrophes */}
+                    <li>With Latin Honors (2020 &ndash; 2024)</li>
                     <li>Most Outstanding Student (2024)</li>
                   </ul>
                  </div>
@@ -135,15 +135,12 @@ const TabList = () => {
                   <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Freelance Web Developer</h3>
-                  <p className="text-sm">Full Stack Web Developer - DMS: Laravel, PHP, Tailwind</p>
-                  <p className="text-gray-500 text-sm">Clark, Pampanga | March 2022 - May 2024</p>
+                  <h3 className="text-lg font-medium font-semibold">Certification</h3>
+                  <p className="text-sm">Udemy</p>
+                  <p className="text-gray-500 text-sm">2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Developed dynamic web applications using Laravel, PHP, and Tailwind CSS, ensuring robust functionality and responsive design.</li>
-                    <li>Designed and implemented a Document Management System (DMS) to streamline document storage, retrieval, and management for clients.</li>
-                    <li>Integrated third-party APIs to enhance application features and functionality, improving overall user experience.</li>
-                    <li>Employed agile methodologies to efficiently manage project timelines and deliverables, ensuring client satisfaction and project success.</li>
-                    <li>Collaborated closely with clients to analyze business requirements, propose technical solutions, and implement tailored web solutions that meet specific needs and objectives.</li>
+                    <li>Search Engine Optimization</li>
+                    <li>Vanilla PHP</li>
                   </ul>
                 </div>
               </div>
