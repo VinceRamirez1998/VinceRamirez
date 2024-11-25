@@ -10,9 +10,10 @@ const TabList = () => {
       name: 'Experience', 
       content: (
         <>
-          <div className="relative pl-16 mb-6">
+      <div className="relative pl-16 mb-6 p-10">
             {/* Timeline */}
-            <div className="absolute left-0 top-0 w-1 bg-gray-300 h-full"></div>
+            <div className="absolute left-11 top-0 w-1 border border-solid border-gray-300 h-full"></div>
+
             <div className="flex flex-col space-y-8">
               {/* Experience 1 */}
               <div className="relative flex items-start space-x-4">
@@ -24,7 +25,7 @@ const TabList = () => {
                   <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
                   <p className="text-sm">Full Stack Web Developer - E-commerce, WordPress, Elementor</p>
                   <p className="text-gray-500 text-sm">Mexico, Pampanga | June 2024 - Current</p>
-                  <ul className="list-disc pl-5 mt-2">
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li>Leveraged Elementor to create custom, visually appealing, and responsive web pages, enhancing the overall aesthetic, usability, performance, and SEO of various websites.</li>
                     <li>Developed an end-to-end e-commerce platform, order management systems, and scheduling management website to streamline online transactions and enhance user experience.</li>
                     <li>Implemented Store Locator feature to help clients find the nearest business location and enhance customer engagement.</li>
@@ -44,7 +45,7 @@ const TabList = () => {
                   <h3 className="text-lg font-medium font-semibold">Freelance Web Developer</h3>
                   <p className="text-sm">Full Stack Web Developer - DMS: Laravel, PHP, Tailwind</p>
                   <p className="text-gray-500 text-sm">Clark, Pampanga | March 2022 - May 2024</p>
-                  <ul className="list-disc pl-5 mt-2">
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li>Developed dynamic web applications using Laravel, PHP, and Tailwind CSS, ensuring robust functionality and responsive design.</li>
                     <li>Designed and implemented a Document Management System (DMS) to streamline document storage, retrieval, and management for clients.</li>
                     <li>Integrated third-party APIs to enhance application features and functionality, improving overall user experience.</li>
@@ -64,7 +65,7 @@ const TabList = () => {
                   <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
                   <p className="text-sm">Full Stack Web Developer - Internship - AMS</p>
                   <p className="text-gray-500 text-sm">Clark, Pampanga | Feb 2024 - May 2024</p>
-                  <ul className="list-disc pl-5 mt-2">
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li>Integrated a custom authentication system, security, managed real-time databases, and hosted applications, ensuring reliability and scalability.</li>
                     <li>Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
                     <li>Implemented version control systems to manage code repositories, facilitating collaborative development and maintaining code integrity throughout the software lifecycle.</li>
@@ -84,7 +85,7 @@ const TabList = () => {
                   <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
                   <p className="text-sm">Lead Programmer - Recruitment Government Platform</p>
                   <p className="text-gray-500 text-sm">Mexico, Pampanga | Aug 2022 - Dec 2023</p>
-                  <ul className="list-disc pl-5 mt-2">
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li>Led the development team in creating a robust Recruitment Government Platform tailored for government agencies, integrating a Preliminary Employment Examination module to streamline the hiring process.</li>
                     <li>Ensured compliance with security standards and regulations, implementing robust authentication mechanisms and data encryption protocols to safeguard applicant information.</li>
                     <li>Provided technical leadership and guidance to the development team, fostering a collaborative environment and promoting best practices in software engineering and project management.</li>
@@ -111,7 +112,7 @@ const TabList = () => {
   return (
     <section className="py-6 px-6 bg-white dark:bg-darkbg">
       <div className="min-h-screen flex justify-center">
-        <div className="max-w-screen-xl w-customwidth mt-10">
+        <div className="max-w-screen-xl w-customwidth mt-10 border border-solid border-gray-300">
           {/* Tab Buttons */}
           <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6">
             {tabs.map((tab) => (

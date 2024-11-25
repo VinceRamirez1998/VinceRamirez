@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 
+
 /* Define light and dark mode color variables */
 :root {
   --background: white; /* Light mode background */
@@ -27,7 +28,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'General Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
