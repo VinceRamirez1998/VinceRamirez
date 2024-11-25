@@ -235,7 +235,7 @@ const TabList = () => {
                     </li>
                     <li className="flex items-center space-x-2">
                     <img src="/images/bootstrap.png" alt="Logo" className="w-5 h-4 object-contain" />
-                      <span>Bootstrap++</span>
+                      <span>Bootstrap</span>
                     </li>
                     <li className="flex items-center space-x-2">
                     <img src="/images/next.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -256,13 +256,28 @@ const TabList = () => {
                   <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Project Management & Version Control</h3>
+                  <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Jira</li>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>Bitbucket</li>
-                    <li>Monday.com</li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/jira.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Jira</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/git.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Git</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/github.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Github</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/bitbucket.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Bitbucket</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/monday.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Monday.com</span>
+                    </li>
                   </ul>
                 </div>
               </div>
