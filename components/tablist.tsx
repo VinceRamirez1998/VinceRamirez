@@ -117,17 +117,16 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Don Honorio Ventura State University</h3>
                   <p className="text-sm">Bachelor of Science in Information Technology</p>
-                  <p className="text-gray-500 text-sm">Bacolor, Pampanga | 2020 - 2024</p>
+                  <p className="text-gray-500 text-sm">Bacolor, Pampanga (2020&ndash;2024)</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Acquired Top 10 Highest Average Among all the Students of the College of Computing
-                    Studies</li>
-                    <li>Acquired Class Top 1 in the Academic Years 2020 and 2024</li>
-                    <li>Consistent President Lister & Deans Lister 2020-2024</li>
-                    <li>With Latin Honors 2020-2024</li>
-                    <li>Most Outstanding Student 2024</li>
+                    <li>Acquired Top 10 Highest Average Among all the Students of the College of Computing Studies</li>
+                    <li>Acquired Class Top 1 in the Academic Years (2020&ndash;2021)</li> {/* Corrected dash */}
+                    <li>Consistent President&apos;s Lister &amp; Dean&apos;s Lister (2020&ndash;2024)</li> {/* Fixed apostrophes */}
+                    <li>With Latin Honors (2020&ndash;2024)</li>
+                    <li>Most Outstanding Student (2024)</li>
                   </ul>
+                 </div>
                 </div>
-              </div>
 
               {/* Experience 2 */}
               <div className="relative flex items-start space-x-4">
