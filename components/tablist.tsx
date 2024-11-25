@@ -166,8 +166,11 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">API Development & Testing Tool</h3>
-                  <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Postman</li>
+                  <ul className="list-disc pl-5 mt-2 font-sans text-sm flex items-center">
+                  <li className="flex items-center space-x-2">
+                  <img src="/images/postman.png" alt="Logo" className="w-5 h-4 object-contain" />
+                  <span>Postman</span>
+                </li>
                   </ul>
                  </div>
                 </div>
@@ -181,13 +184,34 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Javascript</li>
-                    <li>Typescript</li>
-                    <li>C++</li>
-                    <li>PHP</li>
-                    <li>SQL</li>
-                    <li>Html</li>
-                    <li>CSS</li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/js.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Javascript</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/typescript.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Typescript</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/c++.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>C++</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/php.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>PHP</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/sql.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>SQL</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/html.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Html</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/css.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>CSS</span>
+                    </li>
                   </ul>
                 </div>
               </div>
