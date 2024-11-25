@@ -107,14 +107,14 @@ const TabList = () => {
                 <p className="text-gray-500 text-sm">Bacolor, Pampanga | 2020 - 2024</p>
 
                 <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                  <li>Top 10 Highest Average (2020-2021)</li>
-                  <li>Dean's Lister and President Lister (2020-2024)</li>
+                  <li>Top 10 Highest Average 2020-2021</li>
+                  <li>Dean's Lister and President Lister 2020-2024</li>
                 </ul>
 
                 <h4 className="mt-4 text-lg font-medium font-semibold">Certifications</h4>
                 <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                  <li>Search Engine Optimization (Udemy) - March 2024</li>
-                  <li>Vanilla PHP (Udemy) - May 2024</li>
+                  <li>Search Engine Optimization Udemy - March 2024</li>
+                  <li>Vanilla PHP Udemy - May 2024</li>
                 </ul>
               </div>
             </div>
