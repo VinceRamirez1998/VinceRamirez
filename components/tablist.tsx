@@ -157,7 +157,7 @@ const TabList = () => {
 
   return (
     <section className="py-6 px-6 bg-white dark:bg-darkbg">
-      <div className="min-h-screen flex justify-center">
+      <div className="flex justify-center">
         <div className="max-w-screen-xl w-customwidth mt-10 border border-solid border-gray-300 rounded-lg">
           {/* Tab Buttons */}
           <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6">
