@@ -122,8 +122,8 @@ const TabList = () => {
                     <li>Acquired Top 10 Highest Average Among all the Students  <br /> of the College of Computing Studies (2020 &ndash; 2021)</li>
                     <li>Acquired Class Top 1 in the Academic Years  (2020 & 2021)</li> {/* Corrected dash */}
                     <li>Consistent President&apos;s Lister &amp; Dean&apos;s Lister (2020 &ndash; 2024)</li> {/* Fixed apostrophes */}
-                    <li>With Latin Honors (2020 &ndash; 2024)</li>
-                    <li>Most Outstanding Student (2024)</li>
+                    <li>With Latin Honors (2024)</li>
+                    <li>Most Outstanding Student (2023 &ndash; 2024)</li>
                   </ul>
                  </div>
                 </div>
@@ -150,7 +150,7 @@ const TabList = () => {
       )
     },
     { 
-      name: 'Skills', 
+      name: 'Technical Skills', 
       content: (
         <>
       <div className="relative pl-16 mb-6 p-10">
@@ -291,9 +291,18 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Deployment & Web Hosting</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Vercel</li>
-                    <li>Hostinger</li>
-                    <li>Godaddy</li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/vercel.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Vercel</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/hostinger.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Hostinger</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/godaddy.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Godaddy</span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -307,8 +316,14 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Web Builder & Admin Panel Builder </h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Wordpress</li>
-                    <li>Filament</li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/wordpress.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Wordpress</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/filament.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Filament</span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -322,9 +337,18 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Design Tools</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Figma</li>
-                    <li>Adobe XD</li>
-                    <li>Photoshop</li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/figma.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Figma</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/adobexd.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Adobe XD</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                    <img src="/images/photoshop.png" alt="Logo" className="w-5 h-4 object-contain" />
+                      <span>Photoshop</span>
+                    </li>
                   </ul>
                 </div>
               </div>
