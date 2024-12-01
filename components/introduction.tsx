@@ -24,7 +24,7 @@ const Introduction = () => {
 
         {/* Left Section (Name, Title, Location) */}
         <div className="flex flex-col justify-start space-y-4 text-start max-w-md">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white font-calistoga tracking-tighter">Vince Ramirez</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white font-calistoga tracking-tighter tracking-[1px]">Vince Ramirez</h1>
           <p className="text-md text-gray-600 dark:text-gray-400 font-sans">Full Stack Web Developer</p>
           <p className="text-md text-gray-600 dark:text-gray-400 font-sans">Mexico, Pampanga 📍 | PH</p>
 
