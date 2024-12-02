@@ -256,7 +256,7 @@ const TabList = () => {
                   <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
+                  <h3 className="text-lg font-medium font-semibold">Version Control & Project Management</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/jira.png" alt="Logo" className="w-5 h-4 object-contain" />
