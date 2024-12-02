@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'], // Use Poppins as the default sans-serif font
+        serif: ['Quattrocento Sans', 'sans-serif'],
         calistoga: ['Calistoga', 'sans-serif'],
       },
       fontWeight: {
