@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google'; 
 import { Inter } from 'next/font/google';  // This is for Calistoga
 import localFont from 'next/font/local';
-import Header from '../../components/header';  // Import Header component
 import './globals.css';
 
 // Poppins font from Google Fonts
