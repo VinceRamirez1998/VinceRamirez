@@ -150,7 +150,7 @@ const TabList = () => {
       )
     },
     { 
-      name: 'Technical Skills', 
+      name: 'Skills', 
       content: (
         <>
       <div className="relative pl-16 mb-6 p-10">
