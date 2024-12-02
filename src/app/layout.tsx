@@ -51,7 +51,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} ${calistoga.className} antialiased`}
       >
-        <Header /> {/* Add the Header component */}
+        {/* <Header />  */}
         <main>{children}</main> {/* Render the page content */}
       </body>
     </html>
