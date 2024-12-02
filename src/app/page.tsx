@@ -1,4 +1,5 @@
 // src/app/page.tsx
+'use client';
 import Link from 'next/link'; // Import the Link component
 import './globals.css';
 import Preloader from '../../components/preloader';
