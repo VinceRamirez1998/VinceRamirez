@@ -13,7 +13,7 @@ const Preloader: React.FC<PreloaderProps> = ({ className }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // Hide preloader after 3 seconds
-    }, 6000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
