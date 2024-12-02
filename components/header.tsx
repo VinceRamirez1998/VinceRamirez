@@ -81,7 +81,7 @@ const Header = () => {
         <nav className={`${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
           <ul className="flex space-x-6 justify-start">
             <li>
-              <Link href="#" className="hover:text-black dark:hover:text-white dark:text-gray-400">
+              <Link href="" className="hover:text-black dark:hover:text-white dark:text-gray-400">
                 Home
               </Link>
             </li>
