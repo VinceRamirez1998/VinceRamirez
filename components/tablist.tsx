@@ -24,7 +24,7 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">E-commerce, WordPress, Elementor, Javascript, HTML & CSS</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">E-commerce, WordPress, Elementor, Javascript, HTML &amp; CSS</p>
 
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | June 2024 &ndash; Current</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
@@ -41,12 +41,12 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/vr_logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
+                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; DMS & BIW</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel & Microsoft 365</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel &amp; Microsoft 365</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 - May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                       <li className="text-xs pb-1">Created a DMS &ndash; Document Management System for efficient document storage and retrieval.</li>
@@ -66,7 +66,7 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; Internship</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git & Vercel</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git &amp; Vercel</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | Feb 2024 &ndash; May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="text-xs pb-1">Managed firebase real-time databases, and hosted applications.</li>
@@ -87,7 +87,7 @@ const TabList = () => {
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer &ndash; Recruitment Government Platform</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL & Github</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL &amp; Github</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH | Aug 2022 &ndash; Dec 2023</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                    <li className="text-xs pb-1">Led development of a Recruitment Government Platform for agencies, integrating a Preliminary Employment Examination.</li>
