@@ -19,18 +19,19 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/AHA_Logo.jpg" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
-                  <p className="text-sm">Full Stack Web Developer - E-commerce, WordPress, Elementor</p>
-                  <p className="text-gray-500 text-sm">Mexico, Pampanga | June 2024 - Current</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">E-commerce, WordPress, Elementor, Javascript, HTML & CSS</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | June 2024 - Current</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Leveraged Elementor to create custom, visually appealing, and responsive web pages, enhancing the overall aesthetic, usability, performance, and SEO of various websites.</li>
-                    <li>Developed an end-to-end e-commerce platform, order management systems, and scheduling management website to streamline online transactions and enhance user experience.</li>
-                    <li>Implemented Store Locator feature to help clients find the nearest business location and enhance customer engagement.</li>
-                    <li>Utilized a full-stack development approach to ensure seamless integration of front-end and back-end functionalities, delivering a cohesive and intuitive user experience.</li>
-                    <li>Collaborated with clients to understand their business requirements, provided technical expertise, and delivered tailored solutions to meet their specific needs.</li>
+                      <li className="text-xs pb-1">Developed an end-to-end e-commerce platform and order management systems to streamline.</li>
+                      <li className="text-xs pb-1">Used Elementor to design custom, responsive web pages, improving aesthetics, usability, performance, and SEO.</li>
+                      <li className="text-xs pb-1">Implemented a Store Locator feature to help customers find the nearest location, boosting engagement.</li>
+                      <li className="text-xs pb-1">Applied a full-stack approach for seamless front-end and back-end integration, ensuring an intuitive user experience.</li>
+                      <li className="text-xs pb-1">Collaborated with clients to understand their needs and deliver tailored solutions.</li>
                   </ul>
                 </div>
               </div>
@@ -39,18 +40,18 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/vr_logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Freelance Web Developer</h3>
-                  <p className="text-sm">Full Stack Web Developer - DMS: Laravel, PHP, Tailwind</p>
-                  <p className="text-gray-500 text-sm">Clark, Pampanga | March 2022 - May 2024</p>
+                  <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer - DMS & BIW</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel & Microsoft 365</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 - May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Developed dynamic web applications using Laravel, PHP, and Tailwind CSS, ensuring robust functionality and responsive design.</li>
-                    <li>Designed and implemented a Document Management System (DMS) to streamline document storage, retrieval, and management for clients.</li>
-                    <li>Integrated third-party APIs to enhance application features and functionality, improving overall user experience.</li>
-                    <li>Employed agile methodologies to efficiently manage project timelines and deliverables, ensuring client satisfaction and project success.</li>
-                    <li>Collaborated closely with clients to analyze business requirements, propose technical solutions, and implement tailored web solutions that meet specific needs and objectives.</li>
+                      <li className="text-xs pb-1">Created a DMS - Document Management System for efficient document storage and retrieval.</li>
+                      <li className="text-xs pb-1">Created a BIW - Business Informative Website to boost user engagement and provide business insights.</li>
+                      <li className="text-xs pb-1">Developed dynamic web apps with Laravel, PHP, and Tailwind CSS for robust functionality and responsive design.</li>
+                      <li className="text-xs pb-1">Integrated third-party APIs such us Monday.com and Google to enhance features and user experience.</li>
                   </ul>
                 </div>
               </div>
@@ -59,18 +60,19 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/offsuretogether_logo.jpg" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
-                  <p className="text-sm">Full Stack Web Developer - Internship - AMS</p>
-                  <p className="text-gray-500 text-sm">Clark, Pampanga | Feb 2024 - May 2024</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer - Internship</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git & Vercel</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | Feb 2024 - May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Integrated a custom authentication system, security, managed real-time databases, and hosted applications, ensuring reliability and scalability.</li>
-                    <li>Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
-                    <li>Implemented version control systems to manage code repositories, facilitating collaborative development and maintaining code integrity throughout the software lifecycle.</li>
-                    <li>Actively participated in and contributed to internal project initiatives, ensuring timely project delivery.</li>
-                    <li>Ensured UI designs are in line with current trends and maintained consistency and responsiveness across platforms.</li>
+                    <li className="text-xs pb-1">Managed firebase real-time databases, and hosted applications.</li>
+                    <li className="text-xs pb-1">Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
+                    <li className="text-xs pb-1">Enhanced custom system payroll services, attendance, and refactored the company's system.</li>
+                    <li className="text-xs pb-1">Actively participated in and contributed to internal project initiatives, ensuring timely project delivery.</li>
+                    <li className="text-xs pb-1">Ensured UI designs are in line with current trends and maintained consistency and responsiveness across platforms.</li>
                   </ul>
                 </div>
               </div>
@@ -79,18 +81,19 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/dhvsu.png" alt="Logo" className="w-full h-full object-contain rounded-md" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
-                  <p className="text-sm">Lead Programmer - Recruitment Government Platform</p>
-                  <p className="text-gray-500 text-sm">Mexico, Pampanga | Aug 2022 - Dec 2023</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer - Recruitment Government Platform</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL & Github</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH | Aug 2022 - Dec 2023</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Led the development team in creating a robust Recruitment Government Platform tailored for government agencies, integrating a Preliminary Employment Examination module to streamline the hiring process.</li>
-                    <li>Ensured compliance with security standards and regulations, implementing robust authentication mechanisms and data encryption protocols to safeguard applicant information.</li>
-                    <li>Provided technical leadership and guidance to the development team, fostering a collaborative environment and promoting best practices in software engineering and project management.</li>
-                    <li>Architected and implemented core functionalities, including job listings, user registration, preliminary examination modules, and application management systems, ensuring scalability and efficiency.</li>
-                    <li>Conducted regular code reviews, identified areas for optimization, and implemented performance enhancements to maintain code quality and ensure system reliability.</li>
+                   <li className="text-xs pb-1">Led development of a Recruitment Government Platform for agencies, integrating a Preliminary Employment Examination.</li>
+                   <li className="text-xs pb-1">Ensured security compliance with authentication and data encryption protocols to protect applicant information.</li>
+                   <li className="text-xs pb-1">Provided technical leadership, promoting collaboration and best practices in software engineering and project management.</li>
+                   <li className="text-xs pb-1">Architected core features, including job listings, admin panel, and examination feature for scalability and efficiency.</li>
+                   <li className="text-xs pb-1">Conducted code reviews, optimized performance, code refactoring and maintained system reliability.</li>
                   </ul>
                 </div>
               </div>
@@ -112,18 +115,18 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/dhvsu.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Don Honorio Ventura State University</h3>
-                  <p className="text-sm">Bachelor of Science in Information Technology</p>
-                  <p className="text-gray-500 text-sm">Bacolor, Pampanga (2020 &ndash; 2024)</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Information Technology</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH (2020 &ndash; 2024)</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Acquired Top 10 Highest Average Among all the Students  <br /> of the College of Computing Studies (2020 &ndash; 2021)</li>
-                    <li>Acquired Class Top 1 in the Academic Years  (2020 & 2021)</li> {/* Corrected dash */}
-                    <li>Consistent President&apos;s Lister &amp; Dean&apos;s Lister (2020 &ndash; 2024)</li> {/* Fixed apostrophes */}
-                    <li>With Latin Honors (2024)</li>
-                    <li>Most Outstanding Student (2023 &ndash; 2024)</li>
+                      <li className="text-xs pb-1">Acquired Top 10 Highest Average Among all the Students  <br /> of the College of Computing Studies (2020 &ndash; 2021)</li>
+                      <li className="text-xs pb-1">Acquired Class Top 1 in the Academic Years  (2020 & 2021)</li> {/* Corrected dash */}
+                      <li className="text-xs pb-1">Consistent President&apos;s Lister &amp; Dean&apos;s Lister (2020 &ndash; 2024)</li> {/* Fixed apostrophes */}
+                      <li className="text-xs pb-1">With Latin Honors (2024)</li>
+                      <li className="text-xs pb-1">Most Outstanding Student (2023 &ndash; 2024)</li>
                   </ul>
                  </div>
                 </div>
@@ -132,15 +135,15 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/udemy.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Certification</h3>
-                  <p className="text-sm">Udemy</p>
-                  <p className="text-gray-500 text-sm">2024</p>
+                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Udemy</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li>Search Engine Optimization</li>
-                    <li>Vanilla PHP</li>
+                    <li className="text-xs pb-1">Search Engine Optimization</li>
+                    <li className="text-xs pb-1">Vanilla PHP</li>
                   </ul>
                 </div>
               </div>
@@ -162,7 +165,7 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/api.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">API Development & Testing Tool</h3>
@@ -179,7 +182,7 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/web-programming.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
@@ -220,10 +223,10 @@ const TabList = () => {
                <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/framework.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
+                  <h3 className="text-lg font-medium font-semibold">Frontend Library & Frameworks</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/tailwind.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -253,7 +256,7 @@ const TabList = () => {
                 <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/versioncontrol.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Version Control & Project Management</h3>
@@ -286,7 +289,7 @@ const TabList = () => {
                 <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/webhost.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Deployment & Web Hosting</h3>
@@ -311,7 +314,7 @@ const TabList = () => {
                   <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/webbuilder.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Web Builder & Admin Panel Builder </h3>
@@ -332,7 +335,7 @@ const TabList = () => {
                    <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                  <img src="/images/designtools.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Design Tools</h3>
