@@ -45,9 +45,9 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; DMS & BIW</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; DMS &amp; BIW</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel &amp; Microsoft 365</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 - May 2024</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 &ndash; May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                       <li className="text-xs pb-1">Created a DMS &ndash; Document Management System for efficient document storage and retrieval.</li>
                       <li className="text-xs pb-1">Created a BIW &ndash; Business Informative Website to boost user engagement and provide business insights.</li>
@@ -69,7 +69,7 @@ const TabList = () => {
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git &amp; Vercel</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | Feb 2024 &ndash; May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                    <li className="text-xs pb-1">Managed firebase real-time databases, and hosted applications.</li>
+                    <li className="text-xs pb-1">Managed firebase real&ndash;time databases, and hosted applications.</li>
                     <li className="text-xs pb-1">Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
                     <li className="text-xs pb-1">Enhanced custom system payroll services, attendance, and refactored the company's system.</li>
                     <li className="text-xs pb-1">Actively participated in and contributed to internal project initiatives, ensuring timely project delivery.</li>
