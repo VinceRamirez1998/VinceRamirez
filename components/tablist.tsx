@@ -25,11 +25,7 @@ const TabList = () => {
                   <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">E-commerce, WordPress, Elementor, Javascript, HTML & CSS</p>
-<<<<<<< HEAD
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | June 2024 &ndash; Current</p>
-=======
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | June 2024 - Current</p>
->>>>>>> 2100980e31cc9116691e5afd21db9ffcd6e21ff1
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                       <li className="text-xs pb-1">Developed an end-to-end e-commerce platform and order management systems to streamline.</li>
                       <li className="text-xs pb-1">Used Elementor to design custom, responsive web pages, improving aesthetics, usability, performance, and SEO.</li>
@@ -48,15 +44,9 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
-<<<<<<< HEAD
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; DMS & BIW</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer  DMS & BIW</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel & Microsoft 365</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 &ndash; May 2024</p>
-=======
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer - DMS & BIW</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel & Microsoft 365</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 - May 2024</p>
->>>>>>> 2100980e31cc9116691e5afd21db9ffcd6e21ff1
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022  May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                       <li className="text-xs pb-1">Created a DMS - Document Management System for efficient document storage and retrieval.</li>
                       <li className="text-xs pb-1">Created a BIW - Business Informative Website to boost user engagement and provide business insights.</li>
@@ -74,15 +64,9 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
-<<<<<<< HEAD
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; Internship</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git & Vercel</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | Feb 2024 &ndash; May 2024</p>
-=======
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer - Internship</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer  Internship</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git & Vercel</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | Feb 2024 - May 2024</p>
->>>>>>> 2100980e31cc9116691e5afd21db9ffcd6e21ff1
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="text-xs pb-1">Managed firebase real-time databases, and hosted applications.</li>
                     <li className="text-xs pb-1">Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
@@ -101,15 +85,9 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
-<<<<<<< HEAD
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer &ndash; Recruitment Government Platform</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL & Github</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH | Aug 2022 &ndash; Dec 2023</p>
-=======
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer - Recruitment Government Platform</p>
+                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer  Recruitment Government Platform</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL & Github</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH | Aug 2022 - Dec 2023</p>
->>>>>>> 2100980e31cc9116691e5afd21db9ffcd6e21ff1
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                    <li className="text-xs pb-1">Led development of a Recruitment Government Platform for agencies, integrating a Preliminary Employment Examination.</li>
                    <li className="text-xs pb-1">Ensured security compliance with authentication and data encryption protocols to protect applicant information.</li>
