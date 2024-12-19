@@ -7,6 +7,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/**/*.{html,js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
@@ -14,6 +15,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         darkbg: '#030712',
+      },
+      fontSize: {
+        'customsize': '11px', // Add custom font size here
+        'techstacks': '12px', // Add custom font size here
       },
       width: {
         'customwidth': 'var(--customwidth)',  
@@ -31,12 +36,12 @@ module.exports = {
         tighter: '.065em', // Custom class for .025em letter-spacing
       },
       screens: {
-        // Custom breakpoints (optional)
-        sm: '640px', // Small screens (mobile)
-        md: '768px', // Medium screens (tablet, small laptop)
-        lg: '1024px', // Large screens (laptops, desktops)
-        xl: '1280px', // Extra large screens (large desktops)
-        '2xl': '1536px', // 2XL screens (ultra-large displays)
+        'xs': '320px',  // Custom breakpoint for extra small devices
+        'sm': '640px',  // Small screen (default)
+        'md': '768px',  // Medium screen
+        'lg': '1024px', // Large screen
+        'xl': '1280px', // Extra large screen
+        '2xl': '1536px', // Extra-extra-large screen
       },
     },
   },
