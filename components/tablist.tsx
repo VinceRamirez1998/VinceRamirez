@@ -23,15 +23,14 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">E-commerce, WordPress, Elementor, Javascript, HTML & CSS</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | June 2024 &ndash; Current</p>
+                  <p className="text-sm">Full Stack Web Developer - E-commerce, WordPress, Elementor</p>
+                  <p className="text-gray-500 text-sm">Mexico, Pampanga | June 2024 - Current</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                      <li className="text-xs pb-1">Developed an end&ndash;to&ndash;end e&ndash;commerce platform and order management systems to streamline.</li>
-                      <li className="text-xs pb-1">Used Elementor to design custom, responsive web pages, improving aesthetics, usability, performance, and SEO.</li>
-                      <li className="text-xs pb-1">Implemented a Store Locator feature to help customers find the nearest location, boosting engagement.</li>
-                      <li className="text-xs pb-1">Applied a full&ndash;stack approach for seamless front-end and back-end integration, ensuring an intuitive user experience.</li>
-                      <li className="text-xs pb-1">Collaborated with clients to understand their needs and deliver tailored solutions.</li>
+                    <li>Leveraged Elementor to create custom, visually appealing, and responsive web pages, enhancing the overall aesthetic, usability, performance, and SEO of various websites.</li>
+                    <li>Developed an end-to-end e-commerce platform, order management systems, and scheduling management website to streamline online transactions and enhance user experience.</li>
+                    <li>Implemented Store Locator feature to help clients find the nearest business location and enhance customer engagement.</li>
+                    <li>Utilized a full-stack development approach to ensure seamless integration of front-end and back-end functionalities, delivering a cohesive and intuitive user experience.</li>
+                    <li>Collaborated with clients to understand their business requirements, provided technical expertise, and delivered tailored solutions to meet their specific needs.</li>
                   </ul>
                 </div>
               </div>
@@ -43,15 +42,15 @@ const TabList = () => {
                   <img src="/images/vr_logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; DMS & BIW</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel & Microsoft 365</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Mexico, PH | Mar 2022 - May 2024</p>
+                  <h3 className="text-lg font-medium font-semibold">Freelance Web Developer</h3>
+                  <p className="text-sm">Full Stack Web Developer - DMS: Laravel, PHP, Tailwind</p>
+                  <p className="text-gray-500 text-sm">Clark, Pampanga | March 2022 - May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
-                      <li className="text-xs pb-1">Created a DMS &ndash; Document Management System for efficient document storage and retrieval.</li>
-                      <li className="text-xs pb-1">Created a BIW &ndash; Business Informative Website to boost user engagement and provide business insights.</li>
-                      <li className="text-xs pb-1">Developed dynamic web apps with Laravel, PHP, and Tailwind CSS for robust functionality and responsive design.</li>
-                      <li className="text-xs pb-1">Integrated third&ndash;party APIs such us Monday.com and Google to enhance features and user experience.</li>
+                    <li>Developed dynamic web applications using Laravel, PHP, and Tailwind CSS, ensuring robust functionality and responsive design.</li>
+                    <li>Designed and implemented a Document Management System (DMS) to streamline document storage, retrieval, and management for clients.</li>
+                    <li>Integrated third-party APIs to enhance application features and functionality, improving overall user experience.</li>
+                    <li>Employed agile methodologies to efficiently manage project timelines and deliverables, ensuring client satisfaction and project success.</li>
+                    <li>Collaborated closely with clients to analyze business requirements, propose technical solutions, and implement tailored web solutions that meet specific needs and objectives.</li>
                   </ul>
                 </div>
               </div>
@@ -64,9 +63,8 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; Internship</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git & Vercel</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Clark, PH | Feb 2024 &ndash; May 2024</p>
+                  <p className="text-sm">Full Stack Web Developer - Internship - AMS</p>
+                  <p className="text-gray-500 text-sm">Clark, Pampanga | Feb 2024 - May 2024</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="text-xs pb-1">Managed firebase real-time databases, and hosted applications.</li>
                     <li className="text-xs pb-1">Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
@@ -85,9 +83,8 @@ const TabList = () => {
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer &ndash; Recruitment Government Platform</p>
-                  <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL & Github</p>
-                  <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH | Aug 2022 &ndash; Dec 2023</p>
+                  <p className="text-sm">Lead Programmer - Recruitment Government Platform</p>
+                  <p className="text-gray-500 text-sm">Mexico, Pampanga | Aug 2022 - Dec 2023</p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                    <li className="text-xs pb-1">Led development of a Recruitment Government Platform for agencies, integrating a Preliminary Employment Examination.</li>
                    <li className="text-xs pb-1">Ensured security compliance with authentication and data encryption protocols to protect applicant information.</li>
