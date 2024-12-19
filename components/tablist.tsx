@@ -31,7 +31,7 @@ const TabList = () => {
                       <li className="text-xs pb-1">Developed an end&ndash;to&ndash;end e&ndash;commerce platform and order management systems to streamline.</li>
                       <li className="text-xs pb-1">Used Elementor to design custom, responsive web pages, improving aesthetics, usability, performance, and SEO.</li>
                       <li className="text-xs pb-1">Implemented a Store Locator feature to help customers find the nearest location, boosting engagement.</li>
-                      <li className="text-xs pb-1">Applied a full&ndash;stack approach for seamless front-end and back-end integration, ensuring an intuitive user experience.</li>
+                      <li className="text-xs pb-1">Applied a full&ndash;stack approach for seamless frontend and backend integration, ensuring an intuitive user experience.</li>
                       <li className="text-xs pb-1">Collaborated with clients to understand their needs and deliver tailored solutions.</li>
                   </ul>
                 </div>
@@ -71,7 +71,7 @@ const TabList = () => {
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="text-xs pb-1">Managed firebase real&ndash;time databases, and hosted applications.</li>
                     <li className="text-xs pb-1">Utilized and enhanced code readability, best practices, applied a DRY approach, and ensured maintainability.</li>
-                    <li className="text-xs pb-1">Enhanced custom system payroll services, attendance, and refactored the company's system.</li>
+                    <li className="text-xs pb-1">Enhanced custom system payroll services, attendance, and refactored the company&apos;s system.</li>
                     <li className="text-xs pb-1">Actively participated in and contributed to internal project initiatives, ensuring timely project delivery.</li>
                     <li className="text-xs pb-1">Ensured UI designs are in line with current trends and maintained consistency and responsiveness across platforms.</li>
                   </ul>
