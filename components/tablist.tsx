@@ -41,7 +41,7 @@ const TabList = () => {
               <div className="relative flex items-start space-x-4">
                 <div className="absolute left-[-40px] top-0 w-12 h-12">
                   {/* Logo Image */}
-                  <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
+                  <img src="/images/vr_logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
                   <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
@@ -169,7 +169,7 @@ const TabList = () => {
                   <img src="/images/api.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">API Development & Testing Tool</h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">API Development & Testing Tool</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm flex items-center">
                   <li className="flex items-center space-x-2">
                   <img src="/images/postman.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -186,7 +186,7 @@ const TabList = () => {
                   <img src="/images/web-programming.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Programming & Scripting Languages</h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">Programming & Scripting Languages</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/js.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -227,7 +227,7 @@ const TabList = () => {
                   <img src="/images/framework.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Frontend Library & Frameworks</h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">Frontend Library & Frameworks</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/tailwind.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -260,7 +260,7 @@ const TabList = () => {
                   <img src="/images/versioncontrol.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Version Control & Project Management</h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">Version Control & Project Management</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/jira.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -293,7 +293,7 @@ const TabList = () => {
                   <img src="/images/webhost.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Deployment & Web Hosting</h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">Deployment & Web Hosting</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/vercel.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -318,7 +318,7 @@ const TabList = () => {
                   <img src="/images/webbuilder.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Web Builder & Admin Panel Builder </h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">Web Builder & Admin Panel Builder </h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/wordpress.png" alt="Logo" className="w-5 h-4 object-contain" />
@@ -339,7 +339,7 @@ const TabList = () => {
                   <img src="/images/designtools.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div className="flex-1 ml-16">
-                  <h3 className="text-lg font-medium font-semibold">Design Tools</h3>
+                  <h3 className="text-lg font-medium font-semibold pt-2 pl-5">Design Tools</h3>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="flex items-center space-x-2">
                     <img src="/images/figma.png" alt="Logo" className="w-5 h-4 object-contain" />
