@@ -21,7 +21,7 @@ const TabList = () => {
                   {/* Logo Image */}
                   <img src="/images/AHA_Logo.jpg" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
-                <div className="flex-1 ml-16">
+                <div className="flex-1 ml-16 pl-5">
                   <h3 className="text-lg font-medium font-semibold">Alliance Health Care</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">E-commerce, WordPress, Elementor, Javascript, HTML &amp; CSS</p>
@@ -43,7 +43,7 @@ const TabList = () => {
                   {/* Logo Image */}
                   <img src="/images/vr_logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
-                <div className="flex-1 ml-16">
+                <div className="flex-1 ml-16 pl-5">
                   <h3 className="text-lg font-medium font-semibold ">Freelance Web Developer</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; DMS &amp; BIW</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Laravel, PHP, Tailwind, Javascript, CSS, Vercel &amp; Microsoft 365</p>
@@ -63,7 +63,7 @@ const TabList = () => {
                   {/* Logo Image */}
                   <img src="/images/offsuretogether_logo.jpg" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
-                <div className="flex-1 ml-16">
+                <div className="flex-1 ml-16 pl-5">
                   <h3 className="text-lg font-medium font-semibold">Offsure Outsourcing Global Inc.</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Full Stack Web Developer &ndash; Internship</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">React, NextJS, Firebase, Figma, Jira, Git &amp; Vercel</p>
@@ -84,7 +84,7 @@ const TabList = () => {
                   {/* Logo Image */}
                   <img src="/images/dhvsu.png" alt="Logo" className="w-full h-full object-contain rounded-md" />
                 </div>
-                <div className="flex-1 ml-16">
+                <div className="flex-1 ml-16 pl-5">
                   <h3 className="text-lg font-medium font-semibold">Capstone Project</h3>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Lead Programmer &ndash; Recruitment Government Platform</p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Filament, Laravel, PHP, SQL &amp; Github</p>
@@ -118,7 +118,7 @@ const TabList = () => {
                   {/* Logo Image */}
                   <img src="/images/dhvsu.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
-                <div className="flex-1 ml-16">
+                <div className="flex-1 ml-16 pl-5">
                   <h3 className="text-lg font-medium font-semibold">Don Honorio Ventura State University</h3>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Information Technology</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">Bacolor, PH (2020 &ndash; 2024)</p>
@@ -138,7 +138,7 @@ const TabList = () => {
                   {/* Logo Image */}
                   <img src="/images/udemy.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
                 </div>
-                <div className="flex-1 ml-16">
+                <div className="flex-1 ml-16 pl-5">
                   <h3 className="text-lg font-medium font-semibold">Certification</h3>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">Udemy</p>
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">2024</p>
