@@ -25,7 +25,7 @@ const TabList = () => {
                     className="w-full h-full object-contain rounded-full"
                   />
                 </div>
-                <div className="flex-1 ml-16 pl-5">
+                <div className="flex-1 ml-16 pl-5 lg:pl-10">
                   <h3 className="text-lg font-medium font-semibold">
                     Alliance Health Care
                   </h3>
@@ -70,7 +70,7 @@ const TabList = () => {
                     className="w-full h-full object-contain rounded-full"
                   />
                 </div>
-                <div className="flex-1 ml-16 pl-5">
+                <div className="flex-1 ml-16 pl-5 lg:pl-10">
                   <h3 className="text-lg font-medium font-semibold ">
                     Freelance Web Developer
                   </h3>
@@ -115,7 +115,7 @@ const TabList = () => {
                     className="w-full h-full object-contain rounded-full"
                   />
                 </div>
-                <div className="flex-1 ml-16 pl-5">
+                <div className="flex-1 ml-16 pl-5 lg:pl-10">
                   <h3 className="text-lg font-medium font-semibold">
                     Offsure Outsourcing Global Inc.
                   </h3>
@@ -164,7 +164,7 @@ const TabList = () => {
                     className="w-full h-full object-contain rounded-md"
                   />
                 </div>
-                <div className="flex-1 ml-16 pl-5">
+                <div className="flex-1 ml-16 pl-5 lg:pl-10">
                   <h3 className="text-lg font-medium font-semibold">
                     Capstone Project
                   </h3>
@@ -228,7 +228,7 @@ const TabList = () => {
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <div className="flex-1 ml-16 pl-5">
+                <div className="flex-1 ml-16 pl-5 lg:pl-10">
                   <h3 className="text-lg font-medium font-semibold">
                     Don Honorio Ventura State University
                   </h3>
@@ -271,7 +271,7 @@ const TabList = () => {
                     className="w-full h-full object-contain rounded-full"
                   />
                 </div>
-                <div className="flex-1 ml-16 pl-5">
+                <div className="flex-1 ml-16 pl-5 lg:pl-10">
                   <h3 className="text-lg font-medium font-semibold">
                     Certification
                   </h3>
