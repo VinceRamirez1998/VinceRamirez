@@ -36,7 +36,10 @@ const Header = () => {
     <header className="bg-white dark:bg-darkbg text-gray-500 dark:text-white py-6 font-sans">
       <div className="container mx-auto flex justify-between items-center px-4 md:px-0 lg:px-0 w-full md:w-customwidth">
         {/* Left Arrow for Mobile (only visible on small screens) */}
-        <button className="block lg:hidden p-2 text-gray-500 dark:text-white">
+        <button
+          className="block lg:hidden p-2 text-gray-500 dark:text-white"
+          onClick={() => window.history.back()} // Trigger browser's back navigation
+        >
           {/* Left Arrow Icon visible only on mobile */}
           <svg
             className="h-8 w-8"
