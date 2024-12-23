@@ -37,7 +37,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4 md:px-0 lg:px-0 w-full md:w-customwidth">
         {/* Left Arrow for Mobile (only visible on small screens) */}
         <button
-          className="block lg:hidden p-2 text-gray-500 dark:text-white"
+          className="block lg:hidden p-2 text-gray-500 dark:text-white xs:mr-6"
           onClick={() => window.history.back()} // Trigger browser's back navigation
         >
           {/* Left Arrow Icon visible only on mobile */}
