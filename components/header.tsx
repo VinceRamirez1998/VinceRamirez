@@ -63,7 +63,7 @@ const Header = () => {
             <li>
               <Link
                 href="/"
-                className="hover:text-black dark:hover:text-white dark:text-gray-400 flex items-center "
+                className="hover:text-black dark:hover:text-gray-300 dark:text-white flex items-center "
               >
                 {/* Left Arrow Icon visible on desktop only */}
                 <svg
