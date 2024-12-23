@@ -9,43 +9,6 @@ export default function ContactPage() {
     message: "",
   });
 
-  const [status, setStatus] = useState("");
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setStatus("Submitting...");
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData), // Send form data as JSON
-      });
-
-      const result = await response.json();
-      if (response.ok) {
-        setStatus("Thank you for reaching out! We'll get back to you soon.");
-        setFormData({ name: "", email: "", message: "" }); // Reset form fields
-      } else {
-        setStatus("Oops! Something went wrong.");
-      }
-    } catch (error) {
-      setStatus("Network error, please try again.");
-    }
-  };
-
   return (
     <div>
       <Header /> {/* Include Header component */}
@@ -54,7 +17,7 @@ export default function ContactPage() {
           Get in Touch
         </h1>
         <form
-          onSubmit={handleSubmit}
+          // Removed onSubmit handler to make it static
           className="bg-white p-6 sm:p-8 rounded-xl shadow-lg mx-auto w-full"
         >
           <div className="form-group mb-6">
@@ -69,7 +32,12 @@ export default function ContactPage() {
               id="name"
               name="name"
               value={formData.name}
-              onChange={handleChange}
+              onChange={(e) =>
+                setFormData((prevData) => ({
+                  ...prevData,
+                  name: e.target.value,
+                }))
+              }
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent transition duration-200"
             />
@@ -87,7 +55,12 @@ export default function ContactPage() {
               id="email"
               name="email"
               value={formData.email}
-              onChange={handleChange}
+              onChange={(e) =>
+                setFormData((prevData) => ({
+                  ...prevData,
+                  email: e.target.value,
+                }))
+              }
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent transition duration-200"
             />
@@ -104,15 +77,21 @@ export default function ContactPage() {
               id="message"
               name="message"
               value={formData.message}
-              onChange={handleChange}
+              onChange={(e) =>
+                setFormData((prevData) => ({
+                  ...prevData,
+                  message: e.target.value,
+                }))
+              }
               required
               className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600 focus:border-transparent transition duration-200"
               rows={6}
             />
           </div>
 
+          {/* Static Submit Button without any action */}
           <button
-            type="submit"
+            type="button" // Changed to `button` to prevent form submission for now
             className="w-full py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-200 flex justify-center items-center"
           >
             Submit
@@ -133,11 +112,7 @@ export default function ContactPage() {
             </svg>
           </button>
 
-          {status && (
-            <p className="text-center mt-4 text-gray-600 font-semibold">
-              {status}
-            </p>
-          )}
+          {/* Removed status message */}
         </form>
       </div>
     </div>
