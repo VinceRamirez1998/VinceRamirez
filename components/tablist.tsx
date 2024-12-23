@@ -10,14 +10,14 @@ const TabList = () => {
       name: "Experience",
       content: (
         <>
-          <div className="relative pl-16 mb-6 p-10">
+          <div className="relative pl-16 xs:pl-12 mb-6 p-10">
             {/* Timeline */}
             <div className="absolute left-11 top-0 w-1 border border-solid border-gray-300 h-full"></div>
 
             <div className="flex flex-col space-y-8">
               {/* Experience 1 */}
               <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                <div className="absolute left-[-40px] xs:left-[-25px] top-0 w-12 h-12">
                   {/* Logo Image */}
                   <img
                     src="/images/AHA_Logo.jpg"
@@ -62,7 +62,7 @@ const TabList = () => {
 
               {/* Experience 2 */}
               <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                <div className="absolute left-[-40px] xs:left-[-25px] top-0 w-12 h-12">
                   {/* Logo Image */}
                   <img
                     src="/images/vr_logo.png"
@@ -107,7 +107,7 @@ const TabList = () => {
 
               {/* Experience 3 */}
               <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                <div className="absolute left-[-40px] xs:left-[-25px]  top-0 w-12 h-12">
                   {/* Logo Image */}
                   <img
                     src="/images/offsuretogether_logo.jpg"
@@ -156,7 +156,7 @@ const TabList = () => {
 
               {/* Experience 4 */}
               <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                <div className="absolute left-[-40px] xs:left-[-25px]  top-0 w-12 h-12">
                   {/* Logo Image */}
                   <img
                     src="/images/dhvsu.png"
@@ -220,7 +220,7 @@ const TabList = () => {
             <div className="flex flex-col space-y-8">
               {/* Experience 1 */}
               <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                <div className="absolute left-[-40px] xs:left-[-25px]  top-0 w-12 h-12">
                   {/* Logo Image */}
                   <img
                     src="/images/dhvsu.png"
@@ -263,7 +263,7 @@ const TabList = () => {
 
               {/* Experience 2 */}
               <div className="relative flex items-start space-x-4">
-                <div className="absolute left-[-40px] top-0 w-12 h-12">
+                <div className="absolute left-[-40px] xs:left-[-25px]  top-0 w-12 h-12">
                   {/* Logo Image */}
                   <img
                     src="/images/udemy.png"
@@ -320,7 +320,7 @@ const TabList = () => {
                       <img
                         src="/images/postman.png"
                         alt="Logo"
-                        className="w-5 h-4 object-contain"
+                        className="w-5 h-4 object-contain "
                       />
                       <span>Postman</span>
                     </li>
