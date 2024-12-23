@@ -4,15 +4,13 @@
 @tailwind utilities;
 
 /* src/app/globals.css */
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
 
 /* Define light and dark mode color variables */
 :root {
   --background: white; /* Light mode background */
-  --foreground: #030712 ; /* Light mode text color */
+  --foreground: #030712; /* Light mode text color */
   --customwidth: 920px; /* Custom width (light mode) */
 }
 
@@ -29,14 +27,12 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Poppins', 'sans-serif';
+  font-family: "Poppins", "sans-serif";
 }
-
 
 /* Apply the same background color to the header */
 header {
   background-color: var(--background); /* Will change based on the theme */
-  
 }
 
 /* Tailwind's dark mode styles using class */
@@ -49,6 +45,48 @@ header {
   }
 }
 
+/* styles/globals.css */
 
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+h1 {
+  text-align: center;
+  color: #333;
+}
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.status-message {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}
