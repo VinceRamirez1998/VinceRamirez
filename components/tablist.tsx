@@ -42,7 +42,7 @@ const TabList = () => {
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="text-xs pb-1">
                       Developed an end&ndash;to&ndash;end e&ndash;commerce
-                      platform and order management systems to streamline.
+                      platform and order management systems.
                     </li>
                     <li className="text-xs pb-1">
                       Used Elementor to design custom, responsive web pages,

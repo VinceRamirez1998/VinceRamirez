@@ -39,7 +39,7 @@ const Header = () => {
         <button className="block lg:hidden p-2 text-gray-500 dark:text-white">
           {/* Left Arrow Icon visible only on mobile */}
           <svg
-            className="h-6 w-6"
+            className="h-8 w-8"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ const Header = () => {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="2"
+              strokeWidth="1.5"
               d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15m-3 0-3-3m0 0 3-3m-3 3H15"
             />
           </svg>
@@ -60,7 +60,7 @@ const Header = () => {
             <li>
               <Link
                 href="/"
-                className="hover:text-black dark:hover:text-white dark:text-gray-400 flex items-center"
+                className="hover:text-black dark:hover:text-white dark:text-gray-400 flex items-center "
               >
                 {/* Left Arrow Icon visible on desktop only */}
                 <svg
