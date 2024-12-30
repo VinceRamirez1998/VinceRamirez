@@ -63,8 +63,8 @@ const Introduction = () => {
                 className={`text-gray-600 dark:text-gray-300 hover:text-black duration-1000 flex items-center space-x-2 
                   ${
                     link.label === "Resume"
-                      ? "border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 hover:text-black"
-                      : "hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg p-2"
+                      ? "border border-gray-400 rounded-lg px-4 py-2 hover:bg-gray-600 dark:hover:bg-gray-600 hover:text-white"
+                      : "hover:bg-gray-200 dark:hover:bg-gray-700 rounded-xl p-2"
                   }`}
                 aria-label={link.label}
                 download={
