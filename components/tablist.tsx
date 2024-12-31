@@ -54,6 +54,9 @@ const TabList = () => {
                       the nearest location, boosting engagement.
                     </li>
                     <li className="text-xs pb-1">
+                      Integrated a Monday.com API form mutation.
+                    </li>
+                    <li className="text-xs pb-1">
                       Collaborated with clients to understand their needs and
                       deliver tailored solutions.
                     </li>
