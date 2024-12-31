@@ -98,6 +98,13 @@ const TabList = () => {
                       boost user engagement and provide business insights.
                     </li>
                     <li className="text-xs pb-1">
+                      Added functionality to EMS &ndash; Employee Management
+                      System including a payslip feature and night shift
+                      time&ndash;in&ndash;time&ndash;out functionality for the
+                      employee attendance and currently handling the overall
+                      maintenance of the web system.
+                    </li>
+                    <li className="text-xs pb-1">
                       Developed dynamic web apps with Laravel, PHP, and Tailwind
                       CSS for robust functionality and responsive design.
                     </li>
