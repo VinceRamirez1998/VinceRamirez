@@ -33,7 +33,8 @@ const TabList = () => {
                     Full Stack Web Developer
                   </p>
                   <p className="lg:text-sm xs:text-techstacks font-sans font-medium">
-                    E-commerce, WordPress, Elementor, Javascript, HTML &amp; CSS
+                    E-commerce, WordPress, Elementor, PHP, Javascript, HTML
+                    &amp; CSS
                   </p>
 
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">
