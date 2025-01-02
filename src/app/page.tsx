@@ -26,17 +26,19 @@ export default function Home() {
           </Link>
 
           {/* Projects Box */}
-          <div className="flex flex-col items-center justify-between bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300 cursor-pointer hover:bg-gray-100 h-full">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-3">
-              PROJECTS
-            </h2>
-            <p className="text-sm sm:text-base md:text-lg text-gray-600 text-center">
-              Check out my personal and professional projects.
-            </p>
-            <button className="mt-4 bg-gray-800 text-white py-2 px-4 xs:px-3 sm:py-2 sm:px-6 md:py-3 md:px-8 text-sm sm:text-base md:text-lg rounded-full hover:bg-gray-700 transition duration-300 xs:text-xs ">
-              View Projects
-            </button>
-          </div>
+          <Link href="/projects">
+            <div className="flex flex-col items-center justify-between bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300 cursor-pointer hover:bg-gray-100 h-full">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-3">
+                PROJECTS
+              </h2>
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 text-center">
+                Check out my personal and professional projects.
+              </p>
+              <button className="mt-4 bg-gray-800 text-white py-2 px-4 xs:px-3 sm:py-2 sm:px-6 md:py-3 md:px-8 text-sm sm:text-base md:text-lg rounded-full hover:bg-gray-700 transition duration-300 xs:text-xs ">
+                View Projects
+              </button>
+            </div>
+          </Link>
 
           {/* PC Specs Box */}
           <div className="flex flex-col items-center justify-between bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300 cursor-pointer hover:bg-gray-100 h-full">
