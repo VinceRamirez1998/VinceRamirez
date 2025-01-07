@@ -27,15 +27,15 @@ const portfolioItems: PortfolioItem[] = [
     link: "#",
   },
   {
-    title: "Project 4",
-    description: "A brief description of Project 4.",
-    image: "/images/js.png",
+    title: "",
+    description: "",
+    image: "/images/thechaphel.png",
     link: "#",
   },
   {
-    title: "Project 5",
-    description: "A brief description of Project 5.",
-    image: "/images/js.png",
+    title: "",
+    description: "",
+    image: "/images/offsuretours.png",
     link: "#",
   },
   {
