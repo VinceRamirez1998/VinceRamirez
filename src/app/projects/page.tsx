@@ -51,14 +51,11 @@ const portfolioItems: PortfolioItem[] = [
 
 const ProjectsPage: React.FC = () => {
   return (
-    <div className="bg-white dark:darkbg">
+    <div className="">
       <Header /> {/* Include Header component */}
       <div
         className="
           container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8
-          bg-[rgba(255,255,255,0.05)] shadow-[0_4px_15px_rgba(31,38,135,0.2)]
-          dark:bg-[rgba(255,255,255,0.1)] dark:shadow-[0_4px_15px_rgba(31,38,135,0.25)]
-          dark:border-[rgba(255,255,255,0.18)]
         "
       >
         <h1 className="text-4xl font-bold text-center mb-2 mt-2 dark:text-white">
