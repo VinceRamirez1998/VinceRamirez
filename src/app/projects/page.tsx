@@ -22,10 +22,10 @@ const ProjectsPage: React.FC = () => {
     <div className="bg-white dark:bg-darkbg">
       <Header />
       <div className="container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8 bg-gray-100 dark:bg-gray-800">
-        <h1 className="text-4xl font-bold text-center mb-2 mt-2 text-black dark:text-white">
+        <h1 className="text-4xl xs:text-2xl xs:pb-6 font-bold text-center mb-2 mt-2 text-black dark:text-white">
           MY PROJECTS
         </h1>
-        <div className="p-8 rounded-2xl">
+        <div className="rounded-2xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Top row projects */}
             {portfolioItems.slice(0, 3).map((item, index) => (
