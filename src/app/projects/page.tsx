@@ -49,11 +49,11 @@ const portfolioItems: PortfolioItem[] = [
 
 const ProjectsPage: React.FC = () => {
   return (
-    <div className="bg:white dark:bg-black">
+    <div className="">
       <Header /> {/* Include Header component */}
       <div
         className="
-          container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8 bg:white dark:bg-gray-800
+          container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8 xs:bg:white xsdark:bg-gray-800
         "
       >
         <h1 className="text-4xl font-bold text-center mb-2 mt-2 dark:text-white">
@@ -73,7 +73,7 @@ const ProjectsPage: React.FC = () => {
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <h3 className="text-white text-xl font-semibold mb-2">
                     {item.title}
                   </h3>
@@ -82,7 +82,7 @@ const ProjectsPage: React.FC = () => {
                   </p>
                   <a
                     href={item.link}
-                    className="px-4 py-2 bg-black text-white border-2 border-white rounded-md hover:bg-transparent hover:text-white transition"
+                    className="px-4 py-2 text-white border-2 border-white rounded-md hover:bg-transparent hover:text-white transition"
                   >
                     View Details
                   </a>
@@ -103,7 +103,7 @@ const ProjectsPage: React.FC = () => {
                     alt={item.title}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <h3 className="text-white text-xl font-semibold mb-2">
                       {item.title}
                     </h3>
@@ -112,7 +112,7 @@ const ProjectsPage: React.FC = () => {
                     </p>
                     <a
                       href={item.link}
-                      className="px-4 py-2 bg-black text-white border-2 border-white rounded-md hover:bg-transparent hover:text-white transition"
+                      className="px-4 py-2 text-white border-2 border-white rounded-md hover:bg-transparent hover:text-white transition"
                     >
                       View Details
                     </a>
@@ -128,7 +128,7 @@ const ProjectsPage: React.FC = () => {
                 alt={portfolioItems[5].title}
                 className="w-full h-[600px] object-cover transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-white text-xl font-semibold mb-2">
                   {portfolioItems[5].title}
                 </h3>
@@ -137,7 +137,7 @@ const ProjectsPage: React.FC = () => {
                 </p>
                 <a
                   href={portfolioItems[5].link}
-                  className="px-4 py-2 bg-black text-white border-2 border-white rounded-md hover:bg-transparent hover:text-white transition"
+                  className="px-4 py-2 text-white border-2 border-white rounded-md hover:bg-transparent hover:text-white transition"
                 >
                   View Details
                 </a>
