@@ -22,7 +22,7 @@ const ProjectsPage: React.FC = () => {
     <div className="bg-white dark:bg-darkbg">
       <Header />
       <div className="container mx-auto px-4 mt-12 mb-20 xs:mb-20 rounded-lg border border-opacity-18 p-8 bg-gray-100 dark:bg-gray-800">
-        <h1 className="text-4xl xs:text-4xl xs:pb-6 font-bold text-center mb-2 mt-2 text-black dark:text-white">
+        <h1 className="text-4xl xs:text-3xl xs:pb-6 font-bold text-center mb-2 mt-2 text-black dark:text-white">
           MY PROJECTS
         </h1>
         <div className="rounded-2xl">
