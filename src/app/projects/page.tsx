@@ -51,7 +51,7 @@ const portfolioItems: PortfolioItem[] = [
 
 const ProjectsPage: React.FC = () => {
   return (
-    <div>
+    <div className="bg-white dark:darkbg">
       <Header /> {/* Include Header component */}
       <div
         className="
