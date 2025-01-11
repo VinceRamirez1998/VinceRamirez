@@ -50,29 +50,49 @@ const portfolioItems: PortfolioItem[] = [
 
 const ProjectsPage: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
+    // Check if the screen width is less than 768px (Tailwind's sm breakpoint)
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768);
     };
 
+    // Detect user preference for dark mode
+    const darkModeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    );
+    setIsDarkMode(darkModeMediaQuery.matches);
+
+    // Listen for changes in the dark mode preference
+    darkModeMediaQuery.addEventListener("change", (e) => {
+      setIsDarkMode(e.matches);
+    });
+
     checkMobile();
     window.addEventListener("resize", checkMobile);
 
-    // Apply dark mode on mobile devices
-    if (window.innerWidth < 768) {
+    // Clean up event listeners on component unmount
+    return () => {
+      window.removeEventListener("resize", checkMobile);
+      darkModeMediaQuery.removeEventListener("change", (e) => {
+        setIsDarkMode(e.matches);
+      });
+    };
+  }, []);
+
+  // Apply dark mode if preferred
+  useEffect(() => {
+    if (isDarkMode) {
       document.body.classList.add("dark");
     } else {
       document.body.classList.remove("dark");
     }
-
-    // Clean up event listener on component unmount
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
+  }, [isDarkMode]);
 
   if (isMobile) {
     return (
-      <div>
+      <div className={isDarkMode ? "dark" : ""}>
         <Header /> {/* Include Header component */}
         <div
           className="
@@ -91,7 +111,7 @@ const ProjectsPage: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className={isDarkMode ? "dark" : ""}>
       <Header /> {/* Include Header component */}
       <div
         className="
