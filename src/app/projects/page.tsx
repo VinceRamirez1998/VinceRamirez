@@ -1,7 +1,4 @@
-"use client";
 import React from "react";
-import Header from "../../../components/header";
-import "../globals.css";
 
 type PortfolioItem = {
   title: string;
@@ -51,17 +48,10 @@ const portfolioItems: PortfolioItem[] = [
 
 const ProjectsPage: React.FC = () => {
   return (
-    <div>
-      <Header /> {/* Include Header component */}
-      <div
-        className="
-          container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8 bg-white dark:darkbg
-        "
-      >
-        <h1 className="text-4xl font-bold text-center mb-2 mt-2">
-          MY PROJECTS
-        </h1>
-        <div className="p-8 rounded-2xl">
+    <section className="py-12 bg-gray-50 min-h-screen">
+      <div className="container mx-auto px-4">
+        <h1 className="text-5xl font-bold text-center mb-10">My Projects</h1>
+        <div className="bg-white p-8 rounded-2xl shadow-lg">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Projects 1, 2, and 3 in the top row */}
             {portfolioItems.slice(0, 3).map((item, index) => (
@@ -148,7 +138,7 @@ const ProjectsPage: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
