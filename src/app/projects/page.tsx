@@ -1,6 +1,4 @@
-"use client";
-import Header from "../../../components/header";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 type PortfolioItem = {
   title: string;
@@ -49,82 +47,11 @@ const portfolioItems: PortfolioItem[] = [
 ];
 
 const ProjectsPage: React.FC = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  useEffect(() => {
-    // Check if the screen width is less than 768px (Tailwind's sm breakpoint)
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    // Detect user preference for dark mode
-    const darkModeMediaQuery = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    );
-    setIsDarkMode(darkModeMediaQuery.matches);
-
-    // Listen for changes in the dark mode preference
-    darkModeMediaQuery.addEventListener("change", (e) => {
-      setIsDarkMode(e.matches);
-    });
-
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-
-    // Clean up event listeners on component unmount
-    return () => {
-      window.removeEventListener("resize", checkMobile);
-      darkModeMediaQuery.removeEventListener("change", (e) => {
-        setIsDarkMode(e.matches);
-      });
-    };
-  }, []);
-
-  // Apply dark mode if preferred
-  useEffect(() => {
-    if (isDarkMode) {
-      document.body.classList.add("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  }, [isDarkMode]);
-
-  if (isMobile) {
-    return (
-      <div className={isDarkMode ? "dark" : ""}>
-        <Header /> {/* Include Header component */}
-        <div
-          className="
-            container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8
-            bg-transparent shadow-none
-          "
-        >
-          <img
-            src="/images/mobileview.png"
-            alt="Mobile View Not Supported"
-            className="w-full h-full object-cover rounded-lg"
-          />
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className={isDarkMode ? "dark" : ""}>
-      <Header /> {/* Include Header component */}
-      <div
-        className="
-          container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8
-          bg-[rgba(255,255,255,0.05)] shadow-[0_4px_15px_rgba(31,38,135,0.2)]
-          dark:bg-[rgba(255,255,255,0.1)] dark:shadow-[0_4px_15px_rgba(31,38,135,0.25)]
-          dark:border-[rgba(255,255,255,0.18)]
-        "
-      >
-        <h1 className="text-4xl font-bold text-center mb-2 mt-2 dark:text-white">
-          MY PROJECTS
-        </h1>
-        <div className="p-8 rounded-2xl">
+    <section className="py-12 bg-gray-50 min-h-screen">
+      <div className="container mx-auto px-4">
+        <h1 className="text-5xl font-bold text-center mb-10">My Projects</h1>
+        <div className="bg-white p-8 rounded-2xl shadow-lg">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Projects 1, 2, and 3 in the top row */}
             {portfolioItems.slice(0, 3).map((item, index) => (
@@ -211,7 +138,7 @@ const ProjectsPage: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
