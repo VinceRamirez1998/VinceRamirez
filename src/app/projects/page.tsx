@@ -52,13 +52,19 @@ const ProjectsPage: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Check if the screen width is less than 768px (Tailwind's sm breakpoint)
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768);
     };
 
     checkMobile();
     window.addEventListener("resize", checkMobile);
+
+    // Apply dark mode on mobile devices
+    if (window.innerWidth < 768) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
 
     // Clean up event listener on component unmount
     return () => window.removeEventListener("resize", checkMobile);
@@ -91,7 +97,8 @@ const ProjectsPage: React.FC = () => {
         className="
           container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8
           bg-[rgba(255,255,255,0.05)] shadow-[0_4px_15px_rgba(31,38,135,0.2)]
-          dark:bg-[rgba(255,255,255,0.1)] dark:shadow-[0_4px_15px_rgba(31,38,135,0.25)] 
+          dark:bg-[rgba(255,255,255,0.1)] dark:shadow-[0_4px_15px_rgba(31,38,135,0.25)]
+          dark:border-[rgba(255,255,255,0.18)]
         "
       >
         <h1 className="text-4xl font-bold text-center mb-2 mt-2 dark:text-white">
