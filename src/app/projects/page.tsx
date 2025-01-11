@@ -51,7 +51,7 @@ const portfolioItems: PortfolioItem[] = [
 
 const ProjectsPage: React.FC = () => {
   return (
-    <div className="">
+    <div>
       <Header /> {/* Include Header component */}
       <div
         className="
