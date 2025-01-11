@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Header from "../../../components/header";
+import "../globals.css";
 
 type PortfolioItem = {
   title: string;
