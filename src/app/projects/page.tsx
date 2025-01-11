@@ -1,6 +1,5 @@
 "use client";
 import Header from "../../../components/header";
-import React, { useState, useEffect } from "react";
 
 type PortfolioItem = {
   title: string;
