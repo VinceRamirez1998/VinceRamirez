@@ -20,7 +20,7 @@ const portfolioItems: PortfolioItem[] = [
 const ProjectsPage: React.FC = () => {
   return (
     <div className="bg-white dark:bg-darkbg">
-      <Header /> {/* Include Header component */}
+      <Header />
       <div className="container mx-auto px-4 mt-12 mb-20 rounded-lg border border-opacity-18 p-8 bg-gray-100 dark:bg-gray-800">
         <h1 className="text-4xl font-bold text-center mb-2 mt-2 text-black dark:text-white">
           MY PROJECTS
@@ -57,12 +57,11 @@ const ProjectsPage: React.FC = () => {
             ))}
 
             {/* Middle row projects */}
-            <div className="flex flex-col lg:flex-row gap-8 w-full lg:col-span-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-row gap-8 w-full lg:col-span-3">
               {portfolioItems.slice(3, 5).map((item, index) => (
                 <div
                   key={index + 3}
-                  className="relative group rounded-2xl shadow-lg overflow-hidden portfolio-overlay flex-1"
-                  style={{ minHeight: "300px" }}
+                  className="relative group rounded-2xl shadow-lg overflow-hidden portfolio-overlay flex-1 lg:h-[455px] h-[200px] sm:w-[450px] w-full"
                 >
                   <img
                     src={item.image}
@@ -92,7 +91,7 @@ const ProjectsPage: React.FC = () => {
               <img
                 src={portfolioItems[5].image}
                 alt={portfolioItems[5].title}
-                className="w-full h-[300px] sm:h-[400px] lg:h-[600px] object-cover transition-transform duration-300 group-hover:scale-110"
+                className="w-full h-[200px] sm:h-[300px] lg:h-[600px] object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-white text-xl font-semibold mb-2">
