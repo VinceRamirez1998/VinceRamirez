@@ -16,7 +16,7 @@ type PortfolioItem = {
 
 const portfolioItems: PortfolioItem[] = [
   {
-    title: "Chemist",
+    title: "Chemist Greenhouse",
     description: "An online platform to manage their products and services.",
     image: "/images/chemist.png",
     link: "https://chemistgreenhouse.com.au/",
@@ -25,7 +25,7 @@ const portfolioItems: PortfolioItem[] = [
     category: "Web Application",
   },
   {
-    title: "AHA",
+    title: "Alliance Health Care",
     description:
       "A health application focused on fitness tracking and wellness.",
     image: "/images/aha.png",
@@ -45,7 +45,7 @@ const portfolioItems: PortfolioItem[] = [
     category: "Web Application",
   },
   {
-    title: "The Chaphel",
+    title: "The Chaphel Pharmacy",
     description: "A platform to provide services and booking functionalities.",
     image: "/images/thechaphel.png",
     link: "https://thechapelpharmacy.com.au/",
