@@ -32,7 +32,7 @@ const portfolioItems: PortfolioItem[] = [
     link: "https://alliancehealthcare.com.au/",
     developedIn: "2024",
     developedUsing: "Php, Javascript, WordPress",
-    category: "Mobile App",
+    category: "Web Application",
   },
   {
     title: "Maximum Build",
@@ -61,7 +61,7 @@ const portfolioItems: PortfolioItem[] = [
     link: "https://offsuretours.biz/",
     developedIn: "2023",
     developedUsing: "NextJS, Tailwind, Typescript",
-    category: "E-commerce",
+    category: "Online Booking",
   },
   {
     title: "ScriptIt",
@@ -71,7 +71,7 @@ const portfolioItems: PortfolioItem[] = [
     link: "https://scriptit.com.au",
     developedIn: "2024",
     developedUsing: "Php, Javascript, WordPress",
-    category: "Web Application",
+    category: "Web Application and Mobile Application",
   },
 ];
 
