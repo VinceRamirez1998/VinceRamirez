@@ -1,5 +1,6 @@
 "use client";
 import Header from "../../../components/header";
+import Preloader from "../../../components/preloader";
 
 type PortfolioItem = {
   title: string;
@@ -21,6 +22,7 @@ const ProjectsPage: React.FC = () => {
   return (
     <div className="bg-white dark:bg-darkbg xs:pb-20">
       <Header />
+      <Preloader className="font-serif" />
       <div className="container mx-auto px-4 mt-12 mb-20 xs:mb-20 rounded-lg border border-opacity-18 p-8 bg-white dark:bg-darkbg">
         <h1 className="text-4xl xs:text-3xl xs:pb-6 font-bold text-center mb-2 mt-2 text-black dark:text-white font-sans">
           MY PROJECTS

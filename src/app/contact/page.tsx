@@ -1,5 +1,6 @@
 "use client";
 import Header from "../../../components/header";
+import Preloader from "../../../components/preloader";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -12,6 +13,7 @@ export default function ContactPage() {
   return (
     <div className="xs:bg-white xs:dark:bg-darkbg ">
       <Header /> {/* Include Header component */}
+      <Preloader className="font-serif" />
       <div className="p-4 sm:p-8 max-w-full sm:max-w-3xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-semibold text-center text-gray-900 mb-8 dark:text-white pt-10">
           Get in Touch
