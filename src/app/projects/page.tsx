@@ -1,7 +1,7 @@
 "use client";
 import Header from "../../../components/header";
 import Preloader from "../../../components/preloader";
-import { ArrowLeftIcon } from "@heroicons/react/24/solid"; // Importing the "ArrowLeft" icon
+import { ArrowLeftIcon, LinkIcon } from "@heroicons/react/24/solid"; // Importing the "ArrowLeft" icon
 import { useState } from "react";
 
 type PortfolioItem = {
@@ -193,23 +193,21 @@ const ProjectsPage: React.FC = () => {
                 alt={selectedItem.title}
                 className="w-full h-96 object-cover mb-4 border-2 rounded-2xl"
               />
-
               {/* Title */}
               <h2 className="text-3xl font-bold mb-2">{selectedItem.title}</h2>
-
               {/* Link */}
               <a
                 href={selectedItem.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 mb-2 block"
+                className="text-gray-400 mb-2 block flex items-center gap-2"
               >
+                <LinkIcon className="w-5 h-5 animate-spin-slow" />{" "}
+                {/* Link icon */}
                 Visit Website
               </a>
-
               {/* Brief Description */}
               <p className="mb-4">{selectedItem.description}</p>
-
               {/* Development Info */}
               <div className="mb-4">
                 <p>
@@ -223,7 +221,6 @@ const ProjectsPage: React.FC = () => {
                   <strong>Category:</strong> {selectedItem.category}
                 </p>
               </div>
-
               {/* Close Button */}
               <button
                 onClick={closeModal}
