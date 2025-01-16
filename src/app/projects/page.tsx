@@ -111,8 +111,10 @@ const ProjectsPage: React.FC = () => {
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute hover:text-white dark:text-white inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="text-white text-xl font-semibold mb-2">
+                    {item.title}
+                  </h3>
                   <p className="text-white text-sm text-center mb-4">
                     {/* can do item.description here */}
                   </p>
@@ -192,7 +194,9 @@ const ProjectsPage: React.FC = () => {
                 className="w-full h-96 object-cover mb-4 border-2 rounded-2xl"
               />
               {/* Title */}
-              <h2 className="text-3xl font-bold mb-2">{selectedItem.title}</h2>
+              <h2 className="text-3xl font-bold mb-2 text-black dark:text-white">
+                {selectedItem.title}
+              </h2>
               {/* Link */}
               <a
                 href={selectedItem.link}
@@ -205,9 +209,11 @@ const ProjectsPage: React.FC = () => {
                 Visit Website
               </a>
               {/* Brief Description */}
-              <p className="mb-4">{selectedItem.description}</p>
+              <p className="mb-4 text-black dark:text-white">
+                {selectedItem.description}
+              </p>
               {/* Development Info */}
-              <div className="mb-4">
+              <div className="mb-4 text-black dark:text-white">
                 <p>
                   <strong>Developed In:</strong> {selectedItem.developedIn}
                 </p>
