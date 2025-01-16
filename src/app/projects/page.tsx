@@ -1,5 +1,6 @@
 "use client";
 import Header from "../../../components/header";
+import Footer from "../../../components/footer";
 import Preloader from "../../../components/preloader";
 import { ArrowLeftIcon, LinkIcon } from "@heroicons/react/24/solid"; // Importing the "ArrowLeft" icon
 import { useState } from "react";
@@ -237,6 +238,7 @@ const ProjectsPage: React.FC = () => {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 };
