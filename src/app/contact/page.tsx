@@ -28,16 +28,13 @@ export default function ContactPage() {
         body: JSON.stringify(mondayData),
       });
 
-      // Directly handle the response
-      const data = await response.json();
-
+      // Check the response without storing it in a variable
       if (response.ok) {
         alert("Form submitted successfully");
       } else {
         alert("Failed to submit form");
       }
     } catch (err) {
-      // You can either use `err` here for logging or alerting
       console.error("Error:", err);
       alert("An error occurred");
     }
