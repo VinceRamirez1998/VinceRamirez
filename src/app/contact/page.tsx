@@ -7,8 +7,6 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    phone: "",
-    address: "",
     message: "",
   });
 
@@ -18,9 +16,7 @@ export default function ContactPage() {
 
     const formDataObj = {
       name: formData.name,
-      phone: formData.phone,
       email: formData.email,
-      address: formData.address,
       message: formData.message,
       date: new Date().toISOString().split("T")[0], // Current date
     };
@@ -33,10 +29,8 @@ export default function ContactPage() {
           column_values: "{
             \\"text\\": \\"${formDataObj.name}\\",
             \\"text2\\": \\"${formDataObj.email}\\",
-            \\"dup__of_email_address\\": \\"${formDataObj.phone}\\",
-            \\"long_text\\": \\"${formDataObj.address}\\",
-            \\"date4\\": \\"${formDataObj.date}\\",
-            \\"long_text6\\": \\"${formDataObj.message}\\"
+            \\"long_text\\": \\"${formDataObj.message}\\",
+             \\"date_mkmcdgxj\\": \\"${formDataObj.date}\\"
           }"
         ) {
           id
@@ -61,8 +55,6 @@ export default function ContactPage() {
         setFormData({
           name: "",
           email: "",
-          phone: "",
-          address: "",
           message: "",
         });
       } else {
