@@ -28,7 +28,7 @@ export default function ContactPage() {
     const query = `
       mutation {
         create_item(
-          board_id: 1933350367,
+          board_id: 1958553530,
           item_name: "${formDataObj.name}",
           column_values: "{
             \\"text\\": \\"${formDataObj.name}\\",
