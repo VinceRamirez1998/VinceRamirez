@@ -28,14 +28,13 @@ export default function ContactPage() {
         body: JSON.stringify(mondayData),
       });
 
-      const result = await response.json();
-
       if (response.ok) {
         alert("Form submitted successfully");
       } else {
         alert("Failed to submit form");
       }
     } catch (error) {
+      console.error("Error occurred:", error);
       alert("An error occurred");
     }
   };
