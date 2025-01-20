@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { Inter } from "next/font/google"; // This is for Calistoga
 import localFont from "next/font/local";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 // Poppins font from Google Fonts
@@ -53,6 +54,7 @@ export default function RootLayout({
         {/* <Header />  */}
         <main>{children}</main> {/* Render the page content */}
       </body>
+      <GoogleAnalytics gaId="G-X8LFR2JBX4" />
     </html>
   );
 }
