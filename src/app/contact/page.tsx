@@ -1,7 +1,7 @@
 "use client";
+import React, { useState } from "react";
 import Header from "../../../components/header";
 import Preloader from "../../../components/preloader";
-import { useState } from "react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -10,18 +10,49 @@ export default function ContactPage() {
     message: "",
   });
 
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const mondayData = {
+      text: formData.name,
+      text2: formData.email,
+      long_text: formData.message,
+    };
+
+    try {
+      const response = await fetch("/api/send-to-monday", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(mondayData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert("Form submitted successfully");
+      } else {
+        alert("Failed to submit form");
+      }
+    } catch (error) {
+      alert("An error occurred");
+    }
+  };
+
   return (
-    <div className="xs:bg-white xs:dark:bg-darkbg ">
-      <Header /> {/* Include Header component */}
+    <div className="xs:bg-white xs:dark:bg-darkbg">
+      <Header />
       <Preloader className="font-serif" />
       <div className="p-4 sm:p-8 max-w-full sm:max-w-3xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-semibold text-center text-gray-900 mb-8 dark:text-white pt-10">
           Get in Touch
         </h1>
         <form
-          // Removed onSubmit handler to make it static
+          onSubmit={handleSubmit}
           className="bg-white p-6 sm:p-8 rounded-xl shadow-lg mx-auto w-full"
         >
+          {/* Full Name */}
           <div className="form-group mb-6">
             <label
               htmlFor="name"
@@ -45,6 +76,7 @@ export default function ContactPage() {
             />
           </div>
 
+          {/* Email Address */}
           <div className="form-group mb-6">
             <label
               htmlFor="email"
@@ -68,6 +100,7 @@ export default function ContactPage() {
             />
           </div>
 
+          {/* Message */}
           <div className="form-group mb-6">
             <label
               htmlFor="message"
@@ -91,13 +124,11 @@ export default function ContactPage() {
             />
           </div>
 
-          {/* Static Submit Button without any action */}
           <button
-            type="button" // Changed to `button` to prevent form submission for now
+            type="submit" // Submit the form with onSubmit
             className="w-full py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-200 flex justify-center items-center"
           >
             Submit
-            {/* Airplane Icon (SVG) */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -113,8 +144,6 @@ export default function ContactPage() {
               />
             </svg>
           </button>
-
-          {/* Removed status message */}
         </form>
       </div>
     </div>
