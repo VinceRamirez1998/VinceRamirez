@@ -25,25 +25,27 @@ export async function POST(req: Request) {
     const data = await response.json();
 
     if (response.ok) {
+      // If `data` contains important information, you can log it or return it.
+      console.log("Success data:", data);
       return new Response(JSON.stringify({ success: true, data }), {
         status: 200,
       });
     } else {
+      console.error("Error data:", data);
       return new Response(JSON.stringify({ success: false, error: data }), {
         status: 400,
       });
     }
-  } catch (error) {
-    console.error("Error:", error);
-
-    // Narrowing down the error type using a type guard
-    if (error instanceof Error) {
+  } catch (err) {
+    // Handling error
+    if (err instanceof Error) {
+      console.error("Error:", err.message); // Log the error message
       return new Response(
-        JSON.stringify({ success: false, error: error.message }),
+        JSON.stringify({ success: false, error: err.message }),
         { status: 500 }
       );
     } else {
-      // If it's not an instance of Error, handle it as a generic unknown
+      console.error("Unknown error:", err);
       return new Response(
         JSON.stringify({ success: false, error: "An unknown error occurred" }),
         { status: 500 }
