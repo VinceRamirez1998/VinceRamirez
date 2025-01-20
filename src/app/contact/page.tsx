@@ -7,17 +7,41 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
+    address: "",
     message: "",
   });
 
+  // Handle form submission
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const mondayData = {
-      text: formData.name,
-      text2: formData.email,
-      long_text: formData.message,
+    const formDataObj = {
+      name: formData.name,
+      phone: formData.phone,
+      email: formData.email,
+      address: formData.address,
+      message: formData.message,
+      date: new Date().toISOString().split("T")[0], // Current date
     };
+
+    const query = `
+      mutation {
+        create_item(
+          board_id: 1933350367,
+          item_name: "${formDataObj.name}",
+          column_values: "{
+            \\"text\\": \\"${formDataObj.name}\\",
+            \\"text2\\": \\"${formDataObj.email}\\",
+            \\"dup__of_email_address\\": \\"${formDataObj.phone}\\",
+            \\"long_text\\": \\"${formDataObj.address}\\",
+            \\"date4\\": \\"${formDataObj.date}\\",
+            \\"long_text6\\": \\"${formDataObj.message}\\"
+          }"
+        ) {
+          id
+        }
+      }`;
 
     try {
       const response = await fetch("/api/send-to-monday", {
@@ -25,17 +49,28 @@ export default function ContactPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(mondayData),
+        body: JSON.stringify({ query }),
       });
 
-      if (response.ok) {
-        alert("Form submitted successfully");
+      const result = await response.json();
+
+      if (result.success) {
+        // Show success modal or alert
+        alert("Form submitted successfully!");
+        // Reset form after successful submission
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          address: "",
+          message: "",
+        });
       } else {
-        alert("Failed to submit form");
+        alert("There was an error. Please try again later.");
       }
     } catch (error) {
-      console.error("Error occurred:", error);
-      alert("An error occurred");
+      console.error(error);
+      alert("There was an error sending your data. Please try again later.");
     }
   };
 
