@@ -33,9 +33,9 @@ export default async function handler(req, res) {
       } else {
         return res.status(400).json({ success: false, error: data });
       }
-    } catch (error) {
-      console.error("Error:", error);
-      return res.status(500).json({ success: false, error: error.message });
+    } catch (err) {
+      console.error("Error:", err); // Log the error to the console
+      return res.status(500).json({ success: false, error: err.message }); // Use `err` instead of `error`
     }
   } else {
     return res
