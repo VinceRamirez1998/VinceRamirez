@@ -53,6 +53,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "The Chaphel Pharmacy",
     description: "A platform to provide services and booking functionalities.",
     image: "/images/thechaphel.png",
+    video: "/images/development.mp4",
     link: "https://thechapelpharmacy.com.au/",
     developedIn: "2024",
     developedUsing: "Php, Javascript, WordPress",
@@ -63,6 +64,7 @@ const portfolioItems: PortfolioItem[] = [
     description:
       "An online travel agency offering personalized tours and bookings.",
     image: "/images/offsuretours.png",
+    video: "/images/development.mp4",
     link: "https://offsuretours.biz/",
     developedIn: "2023",
     developedUsing: "NextJS, Tailwind, Typescript",
@@ -73,6 +75,7 @@ const portfolioItems: PortfolioItem[] = [
     description:
       "A platform for users to generate custom scripts for different use cases.",
     image: "/images/scriptit.png",
+    video: "/images/development.mp4",
     link: "https://scriptit.com.au",
     developedIn: "2024",
     developedUsing: "Php, Javascript, WordPress",
