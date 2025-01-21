@@ -13,6 +13,7 @@ type PortfolioItem = {
   developedIn?: string;
   developedUsing?: string;
   category?: string;
+  video?: string;
 };
 
 const portfolioItems: PortfolioItem[] = [
@@ -20,6 +21,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Chemist Greenhouse",
     description: "An online platform to manage their products and services.",
     image: "/images/chemist.png",
+    video: "/images/chemist.mp4",
     link: "https://chemistgreenhouse.com.au/",
     developedIn: "2024",
     developedUsing: "Php, Javascript, WordPress",
@@ -30,6 +32,7 @@ const portfolioItems: PortfolioItem[] = [
     description:
       "A health application focused on fitness tracking and wellness.",
     image: "/images/aha.png",
+    video: "/images/allianceau.mp4",
     link: "https://alliancehealthcare.com.au/",
     developedIn: "2024",
     developedUsing: "Php, Javascript, WordPress",
@@ -40,6 +43,7 @@ const portfolioItems: PortfolioItem[] = [
     description:
       "Founded in 2015, Maximum Build is an Australian family-owned building company serving Gold Coast and Brisbane areas, providing reliable and high-quality building services.",
     image: "/images/maximum.png",
+    video: "/images/maximum.mp4",
     link: "https://www.maximumbuild.com.au/",
     developedIn: "2024",
     developedUsing: "Javascript, HTML, CSS",
@@ -188,12 +192,14 @@ const ProjectsPage: React.FC = () => {
         {isModalOpen && selectedItem && (
           <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xl bg-black/30  z-50">
             <div className="bg-white dark:bg-darkbg rounded-lg p-6 w-full max-w-4xl border-2">
-              {/* Image */}
-              <img
-                src={selectedItem.image}
-                alt={selectedItem.title}
-                className="w-full h-96 object-cover mb-4 border-2 rounded-2xl"
-              />
+              {/* Video */}
+              <video
+                autoPlay
+                muted
+                loop
+                src={selectedItem.video}
+                className="w-full h-[450px] object-cover mb-4 border-2 rounded-2xl"
+              ></video>
               {/* Title */}
               <h2 className="text-3xl font-bold mb-2 text-black dark:text-white">
                 {selectedItem.title}
