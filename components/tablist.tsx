@@ -38,7 +38,7 @@ const TabList = () => {
                   </p>
 
                   <p className="text-gray-500 lg:text-xs font-sans xs:text-customsize">
-                    Clark, PH | June 2024 &ndash; Current
+                    Clark, PH | June 2024 &ndash; Dec 2024
                   </p>
                   <ul className="list-disc pl-5 mt-2 font-sans text-sm">
                     <li className="text-xs pb-1">

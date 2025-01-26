@@ -24,7 +24,7 @@ const portfolioItems: PortfolioItem[] = [
     video: "/images/chemist.mp4",
     link: "https://chemistgreenhouse.com.au/",
     developedIn: "2024",
-    developedUsing: "Php, Javascript, WordPress",
+    developedUsing: "Php, Javascript, HTML, CSS",
     category: "Web Application",
   },
   {
@@ -35,7 +35,7 @@ const portfolioItems: PortfolioItem[] = [
     video: "/images/allianceau.mp4",
     link: "https://alliancehealthcare.com.au/",
     developedIn: "2024",
-    developedUsing: "Php, Javascript, WordPress",
+    developedUsing: "Php, Javascript, HTML, CSS",
     category: "Web Application",
   },
   {
@@ -46,17 +46,17 @@ const portfolioItems: PortfolioItem[] = [
     video: "/images/maximum.mp4",
     link: "https://www.maximumbuild.com.au/",
     developedIn: "2024",
-    developedUsing: "Javascript, HTML, CSS",
+    developedUsing: "Javascript, HTML, CSS, Monday.com API, Vercel",
     category: "Web Application",
   },
   {
     title: "The Chaphel Pharmacy",
     description: "A platform to provide services and booking functionalities.",
     image: "/images/thechaphel.png",
-    video: "/images/development.mp4",
+    video: "/images/thechapel.mp4",
     link: "https://thechapelpharmacy.com.au/",
     developedIn: "2024",
-    developedUsing: "Php, Javascript, WordPress",
+    developedUsing: "Php, Javascript, HTML, CSS",
     category: "Web Application",
   },
   {
@@ -78,7 +78,7 @@ const portfolioItems: PortfolioItem[] = [
     video: "/images/development.mp4",
     link: "https://scriptit.com.au",
     developedIn: "2024",
-    developedUsing: "Php, Javascript, WordPress",
+    developedUsing: "Php, Javascript, HTML, CSS",
     category: "Web Application and Mobile Application",
   },
 ];
