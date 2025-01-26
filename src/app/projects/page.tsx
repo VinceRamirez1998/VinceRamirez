@@ -201,7 +201,7 @@ const ProjectsPage: React.FC = () => {
                 muted
                 loop
                 src={selectedItem.video}
-                className="w-full h-[340px] object-cover mb-4 border-2 rounded-2xl"
+                className="w-full lg:h-[450px] sm:h-[350px]: object-cover mb-4 border-2 rounded-2xl"
               ></video>
               {/* Title */}
               <h2 className="text-3xl font-bold mb-2 text-black dark:text-white">
