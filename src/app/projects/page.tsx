@@ -53,7 +53,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "The Chaphel Pharmacy",
     description: "A platform to provide services and booking functionalities.",
     image: "/images/thechaphel.png",
-    video: "/images/development.mp4",
+    video: "/images/chapelpharma.mp4",
     link: "https://thechapelpharmacy.com.au/",
     developedIn: "2024",
     developedUsing: "Php, Javascript, HTML, CSS",
